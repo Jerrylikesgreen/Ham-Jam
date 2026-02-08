@@ -5,20 +5,21 @@ using System.Collections.Generic;
 public class TowerDamageRange : MonoBehaviour
 {
     [Header("Attack Settings")]
-    public float damage = 20f;
-    public float attackInterval = 1f;
+    public float damage = 20f;          // Damage per attack
+    public float attackInterval = 1f;   // Time between attacks in seconds
 
     private float attackTimer;
-    private HashSet<MinionHealth> targets = new();
+    private List<MinionHealth> targets = new(); // preserves entry order
 
     private void Update()
     {
-        // Remove null references (if enemies died)
-        targets.RemoveWhere(t => t == null);
+        // Remove destroyed or null enemies
+        targets.RemoveAll(t => t == null);
 
         if (targets.Count == 0)
             return;
 
+        // Countdown timer
         attackTimer -= Time.deltaTime;
 
         if (attackTimer <= 0f)
@@ -30,13 +31,14 @@ public class TowerDamageRange : MonoBehaviour
 
     private void Attack()
     {
-        // Basic: attack first available target
-        foreach (var target in targets)
+        // Attack the first enemy that entered the area
+        for (int i = 0; i < targets.Count; i++)
         {
+            var target = targets[i];
             if (target != null)
             {
                 target.TakeDamage(damage);
-                Debug.Log($"[Tower] Dealt {damage} to {target.name}");
+                Debug.Log($"[Tower] Dealt {damage} to {target.name} (first in range)");
                 break; // single target tower
             }
         }
@@ -46,8 +48,9 @@ public class TowerDamageRange : MonoBehaviour
     {
         if (other.TryGetComponent(out MinionHealth health))
         {
+            // Add to the end of the list (preserves entry order)
             targets.Add(health);
-            Debug.Log($"{other.name} entered range.");
+            Debug.Log($"{other.name} entered tower range.");
         }
     }
 
@@ -55,8 +58,10 @@ public class TowerDamageRange : MonoBehaviour
     {
         if (other.TryGetComponent(out MinionHealth health))
         {
+            // Remove from list when leaving range
             targets.Remove(health);
-            Debug.Log($"{other.name} exited range.");
+            Debug.Log($"{other.name} exited tower range.");
         }
     }
+
 }
