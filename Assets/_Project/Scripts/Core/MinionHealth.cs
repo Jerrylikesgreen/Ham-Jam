@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Health : MonoBehaviour
+public class MinionHealth : MonoBehaviour
 {
     [Header("Health Settings")]
     public float maxHealth = 100f;
@@ -28,9 +28,4 @@ public class Health : MonoBehaviour
         Destroy(gameObject);
     }
 
-    // Optional: for debugging
-    private void OnMouseDown()
-    {
-        TakeDamage(30f);   // Click to test damage
-    }
 }
