@@ -2,15 +2,20 @@ using UnityEngine;
 
 public class SpawnButton : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [Header("Spawn Window Reference")]
+    [SerializeField] private SpawnWindow spawnWindow;
 
-    // Update is called once per frame
-    void Update()
+    public void ToggleSpawnWindow()
     {
-        
+        if (spawnWindow == null)
+        {
+            Debug.LogError("SpawnWindow reference not assigned!");
+            return;
+        }
+
+        bool newState = !spawnWindow.gameObject.activeSelf;
+        spawnWindow.gameObject.SetActive(newState);
+
+        Debug.Log($"Spawn Window visibility set to: {newState}");
     }
 }

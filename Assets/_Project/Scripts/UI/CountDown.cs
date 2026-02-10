@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 using UnityEngine.UI; // Required for TextMeshPro
 
@@ -22,21 +22,21 @@ public class CountDown : MonoBehaviour
 
     void Update()
     {
-        // Only count down if timer > 0
         if (timer > 0f)
         {
             timer -= Time.deltaTime;
 
-            if (timer < startTime * 0.25)
+            // Optional: change panel color at 25% remaining
+            if (timer < startTime * 0.25f)
                 panelBorder.color = Color.red;
 
-
-            if (timer < 0f)
+            // Clamp timer to 0
+            if (timer <= 0f)
+            {
                 timer = 0f;
-            OnCountDownFinished();
+                OnCountDownFinished(); // ✅ Call only once when timer hits 0
+            }
 
-
-            // Update the TextMeshPro text
             UpdateCountdownText();
         }
     }

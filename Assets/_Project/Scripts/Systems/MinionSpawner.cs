@@ -5,16 +5,8 @@ public class MinionSpawner : MonoBehaviour
     [Header("Spawner Settings")]
     public GameObject minionPrefab;      // DRAG MeatMinion PREFAB HERE
     public Transform spawnPoint;         // DRAG empty GO or WP0 HERE
-    public KeyCode spawnKey = KeyCode.Space;
 
-    void Update()
-    {
-        if (Input.GetKeyDown(spawnKey))
-        {
-            Debug.Log("Space pressed! Attempting spawn...");  // NEW: Confirms input
-            SpawnMinion();
-        }
-    }
+
 
     public void SpawnMinion()
     {

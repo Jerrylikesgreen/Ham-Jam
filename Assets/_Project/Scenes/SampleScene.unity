@@ -185,9 +185,9 @@ RectTransform:
   - {fileID: 325129769}
   m_Father: {fileID: 421053310}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 125, y: -283.3333}
   m_SizeDelta: {x: 250, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &64909227
@@ -498,7 +498,7 @@ GameObject:
   m_Layer: 5
   m_Name: ProgressBar
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -757,7 +757,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &421053310
 RectTransform:
   m_ObjectHideFlags: 0
@@ -856,6 +856,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c19c15df74c964a429adf7c47370f4fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  mob1Progress: {fileID: 252610664}
+  mob2Progress: {fileID: 619315382}
+  mob3Progress: {fileID: 325129770}
+  mob1SpawnButton: {fileID: 1675421172}
+  mob2SpawnButton: {fileID: 1556625623}
+  mob3SpawnButton: {fileID: 64909227}
+  mob1SpawnTime: 10
+  mob2SpawnTime: 10
+  mob3SpawnTime: 10
+  mob1SpawnCountEnabled: 1
+  mob2SpawnCountEnabled: 1
+  mob3SpawnCountEnabled: 1
+  spawner: {fileID: 1246390373}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1444,7 +1457,7 @@ RectTransform:
   m_Father: {fileID: 1469900257}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 1, y: 0}
   m_SizeDelta: {x: -2, y: 0}
   m_Pivot: {x: 0, y: 0}
@@ -1594,7 +1607,7 @@ RectTransform:
   m_Father: {fileID: 963957788}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 1, y: 0}
   m_SizeDelta: {x: -2, y: 0}
   m_Pivot: {x: 0, y: 0}
@@ -1667,7 +1680,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MinionSpawner
   minionPrefab: {fileID: 8257238584796491122, guid: 58c1ad8a595f2914dab6c728fd7abc7c, type: 3}
   spawnPoint: {fileID: 1246390374}
-  spawnKey: 32
 --- !u!4 &1246390374
 Transform:
   m_ObjectHideFlags: 0
@@ -2118,9 +2130,9 @@ RectTransform:
   - {fileID: 619315381}
   m_Father: {fileID: 421053310}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 125, y: -166.66666}
   m_SizeDelta: {x: 250, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1556625623
@@ -2406,7 +2418,7 @@ RectTransform:
   m_Father: {fileID: 1864150627}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 1, y: 0}
   m_SizeDelta: {x: -2, y: 0}
   m_Pivot: {x: 0, y: 0}
@@ -2533,7 +2545,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1609145960}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1609145962}
+        m_TargetAssemblyTypeName: SpawnButton, Assembly-CSharp
+        m_MethodName: ToggleSpawnWindow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1609145960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2584,6 +2608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fff15c853f9659459534206055e1778, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  spawnWindow: {fileID: 421053314}
 --- !u!1 &1675421170
 GameObject:
   m_ObjectHideFlags: 0
@@ -2619,9 +2644,9 @@ RectTransform:
   - {fileID: 252610663}
   m_Father: {fileID: 421053310}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 125, y: -50}
   m_SizeDelta: {x: 250, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1675421172
