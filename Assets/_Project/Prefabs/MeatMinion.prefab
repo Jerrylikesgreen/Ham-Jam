@@ -155,6 +155,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: a22685f337eca7e44bb09d1c809c50fb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4641990758989087220}
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: a22685f337eca7e44bb09d1c809c50fb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7739710166865955339}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: a22685f337eca7e44bb09d1c809c50fb, type: 3}
 --- !u!1 &8257238584796491122 stripped
 GameObject:
@@ -305,3 +308,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   moveSpeed: 3.5
   waypoints: []
+--- !u!114 &7739710166865955339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257238584796491122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d5f0b8763ed4374aba494560fe1ebef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MinionDamage
+  damagePerAttack: 10
+  attackInterval: 2
