@@ -315,8 +315,8 @@ GameObject:
   - component: {fileID: 92549675}
   - component: {fileID: 92549679}
   - component: {fileID: 92549678}
-  - component: {fileID: 92549677}
   - component: {fileID: 92549680}
+  - component: {fileID: 92549681}
   m_Layer: 0
   m_Name: Tower
   m_TagString: Untagged
@@ -402,18 +402,6 @@ RectTransform:
   m_AnchoredPosition: {x: -2.59, y: -0.23}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &92549677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 92549674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2929ce70ecaa064a80c44ef63ea03c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!58 &92549678
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -485,6 +473,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 92549674}
   m_CullTransparentMesh: 1
+--- !u!114 &92549681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92549674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a10330bd43f832438570cea4bb18377, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  damagePerAttack: 10
+  attackInterval: 1
+  minionTag: Minion
 --- !u!1 &252610662
 GameObject:
   m_ObjectHideFlags: 0
@@ -948,18 +951,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c19c15df74c964a429adf7c47370f4fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  spawnSystem: {fileID: 1849312461}
   mob1Progress: {fileID: 252610664}
   mob2Progress: {fileID: 619315382}
   mob3Progress: {fileID: 325129770}
   mob1SpawnButton: {fileID: 1675421172}
   mob2SpawnButton: {fileID: 1556625623}
   mob3SpawnButton: {fileID: 64909227}
-  mob1SpawnTime: 10
-  mob2SpawnTime: 10
-  mob3SpawnTime: 10
-  mob1SpawnCountEnabled: 1
-  mob2SpawnCountEnabled: 1
-  mob3SpawnCountEnabled: 1
   spawner: {fileID: 1246390373}
 --- !u!1 &428293814
 GameObject:
@@ -1545,6 +1543,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1849312460}
   - {fileID: 1705933790}
   - {fileID: 1609145958}
   m_Father: {fileID: 0}
@@ -1592,9 +1591,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 895861432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2929ce70ecaa064a80c44ef63ea03c1, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a10330bd43f832438570cea4bb18377, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  damagePerAttack: 10
+  attackInterval: 1
+  minionTag: Minion
 --- !u!58 &895861435
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2692,8 +2694,6 @@ MonoBehaviour:
   - {fileID: 40655938}
   - {fileID: 1496084316}
   - {fileID: 33613863}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1 &1327843532
 GameObject:
   m_ObjectHideFlags: 0
@@ -3027,7 +3027,7 @@ Transform:
   m_GameObject: {fileID: 1496084315}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.83, y: -2.91, z: 0}
+  m_LocalPosition: {x: -12.83, y: -3.69, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3687,9 +3687,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1636254620}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2929ce70ecaa064a80c44ef63ea03c1, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a10330bd43f832438570cea4bb18377, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  damagePerAttack: 10
+  attackInterval: 1
+  minionTag: Minion
 --- !u!58 &1636254623
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4183,6 +4186,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1810367808}
   m_CullTransparentMesh: 1
+--- !u!1 &1849312459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1849312460}
+  - component: {fileID: 1849312461}
+  m_Layer: 5
+  m_Name: SpawnSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1849312460
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849312459}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 851412057}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1849312461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849312459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23ff0a5508e2f804bba483edd6e35dac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnSystem
+  mob1SpawnTime: 10
+  mob2SpawnTime: 10
+  mob3SpawnTime: 10
+  mob1Timer: 0
+  mob2Timer: 0
+  mob3Timer: 0
+  mob1Ready: 0
+  mob2Ready: 0
+  mob3Ready: 0
 --- !u!1 &1864150626
 GameObject:
   m_ObjectHideFlags: 0
