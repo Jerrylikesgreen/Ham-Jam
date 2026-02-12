@@ -1,22 +1,35 @@
 ﻿using UnityEngine;
 using TMPro;
-using UnityEngine.UI; // Required for TextMeshPro
+using UnityEngine.UI;
 
 public class CountDown : MonoBehaviour
 {
     [Header("Countdown Settings")]
+    [Tooltip("Base time BEFORE upgrades (seconds)")]
+    public float baseStartTime = 60f;
+
     public TMP_Text countdownText;
     public Image panelBorder;
-    public float startTime = 10f;  // Countdown start time in seconds
+
+    // ── NEW: Inspector debug tracker (optional but useful) ──
+    [Header("Runtime Debug (Read Only)")]
+    [SerializeField, ReadOnly] private float finalStartTimeDisplay;
+    [SerializeField, ReadOnly] private float timeBonusAppliedDisplay;
 
     private float timer;
 
     void Start()
     {
-        // Initialize timer
-        timer = startTime;
+        // Apply upgrade bonus
+        float bonus = UpgradeManager.GetGameTimeBonus();
+        timer = baseStartTime + bonus;
 
-        // Optional: immediately update the text at start
+        // Fill debug fields
+        finalStartTimeDisplay = timer;
+        timeBonusAppliedDisplay = bonus;
+
+        Debug.Log($"Game time set to {timer}s (base {baseStartTime} + {bonus}s from upgrades)");
+
         UpdateCountdownText();
     }
 
@@ -26,32 +39,27 @@ public class CountDown : MonoBehaviour
         {
             timer -= Time.deltaTime;
 
-            // Optional: change panel color at 25% remaining
-            if (timer < startTime * 0.25f)
+            if (timer < (baseStartTime + UpgradeManager.GetGameTimeBonus()) * 0.25f)
                 panelBorder.color = Color.red;
 
-            // Clamp timer to 0
             if (timer <= 0f)
             {
                 timer = 0f;
-                OnCountDownFinished(); // ✅ Call only once when timer hits 0
+                OnCountDownFinished();
             }
 
             UpdateCountdownText();
         }
     }
 
-
     private void OnCountDownFinished()
     {
         Debug.Log("Count Down Finished");
-        // TODO - Hook up to Event Bus - Still need to create the Event bus. 
+        // TODO - Hook up to Event Bus
     }
-
 
     private void UpdateCountdownText()
     {
-        // Display as whole numbers
         countdownText.text = Mathf.Ceil(timer).ToString();
     }
 }

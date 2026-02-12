@@ -4,19 +4,37 @@ using System.Collections;
 public class MinionDamage : MonoBehaviour
 {
     [Header("Damage Settings")]
-    public float damagePerAttack = 10f;
+    [Tooltip("Base damage BEFORE upgrades")]
+    public float baseDamagePerAttack = 10f;
+
     public float attackInterval = 2f;
+
+    // ── NEW: Inspector debug tracker ──
+    [Header("Runtime Debug (Read Only)")]
+    [SerializeField, ReadOnly] private float finalDamageDisplay;
+    [SerializeField, ReadOnly] private float damageMultiplierDisplay;
 
     private CastleHealth castle;
     private bool isAttacking = false;
+    private float finalDamagePerAttack;
 
     void Start()
     {
         castle = FindObjectOfType<CastleHealth>();
         if (castle == null)
         {
-            Debug.LogError("MinionDamage: No CastleHealth found in scene!");
+            Debug.LogError("MinionDamage: No CastleHealth found!");
         }
+
+        // Apply upgrade multiplier
+        float multiplier = UpgradeManager.GetDamageMultiplier();
+        finalDamagePerAttack = baseDamagePerAttack * multiplier;
+
+        // Fill debug fields
+        finalDamageDisplay = finalDamagePerAttack;
+        damageMultiplierDisplay = multiplier;
+
+        Debug.Log($"Minion damage set to {finalDamagePerAttack} (base {baseDamagePerAttack} × {multiplier}x)");
     }
 
     public void StartAttacking()
@@ -32,12 +50,11 @@ public class MinionDamage : MonoBehaviour
     {
         while (isAttacking && castle != null)
         {
-            castle.TakeDamage(damagePerAttack);
+            castle.TakeDamage(finalDamagePerAttack);  // ← use upgraded value
             yield return new WaitForSeconds(attackInterval);
         }
     }
 
-    // Stop attacking when minion dies (called by Health script's Destroy)
     void OnDestroy()
     {
         isAttacking = false;
