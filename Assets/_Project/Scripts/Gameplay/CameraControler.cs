@@ -14,8 +14,15 @@ public class DragCameraX : MonoBehaviour
 
     void Update()
     {
-        HandleMouse();
-        HandleTouch();
+        // If touching screen, prioritize touch input
+        if (Input.touchCount > 0)
+        {
+            HandleTouch();
+        }
+        else
+        {
+            HandleMouse();
+        }
     }
 
     void HandleMouse()
@@ -41,20 +48,28 @@ public class DragCameraX : MonoBehaviour
 
     void HandleTouch()
     {
-        if (Input.touchCount == 0) return;
-
         Touch touch = Input.GetTouch(0);
 
-        if (touch.phase == TouchPhase.Began)
+        switch (touch.phase)
         {
-            lastPosition = touch.position;
-        }
+            case TouchPhase.Began:
+                isDragging = true;
+                lastPosition = touch.position;
+                break;
 
-        if (touch.phase == TouchPhase.Moved)
-        {
-            Vector3 delta = touch.position - (Vector2)lastPosition;
-            MoveCamera(delta.x);
-            lastPosition = touch.position;
+            case TouchPhase.Moved:
+                if (isDragging)
+                {
+                    Vector2 delta = touch.position - (Vector2)lastPosition;
+                    MoveCamera(delta.x);
+                    lastPosition = touch.position;
+                }
+                break;
+
+            case TouchPhase.Ended:
+            case TouchPhase.Canceled:
+                isDragging = false;
+                break;
         }
     }
 
@@ -62,7 +77,6 @@ public class DragCameraX : MonoBehaviour
     {
         float newX = transform.position.x - deltaX * dragSpeed;
 
-        // Clamp 
         newX = Mathf.Clamp(newX, minX, maxX);
 
         transform.position = new Vector3(
