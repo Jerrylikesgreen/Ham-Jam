@@ -4,18 +4,49 @@ using TMPro;
 public class MeatResourceGenerator : MonoBehaviour
 {
     [Header("Meat Settings")]
-    [SerializeField] private float tickInterval = 1f;   // Time between ticks
-    [SerializeField] private int meatPerTick = 1;       // How much per tick
+    [SerializeField, Tooltip("Base interval BEFORE upgrades (seconds)")]
+    private float baseTickInterval = 1f;
+
+    [SerializeField, Tooltip("Base meat per tick BEFORE upgrades")]
+    private int baseMeatPerTick = 1;
 
     [Header("UI")]
     [SerializeField] private TMP_Text meatText;
 
+    // ── NEW: Inspector debug fields ──
+    [Header("Runtime Debug (Read Only)")]
+    [SerializeField, ReadOnly] private float finalTickIntervalDisplay;
+    [SerializeField, ReadOnly] private int   finalMeatPerTickDisplay;
+    [SerializeField, ReadOnly] private float reductionAppliedDisplay;
+
     private int meatCount = 0;
     private float timer = 0f;
 
+    // Final values after upgrade
+    private float tickInterval;
+    private int   meatPerTick;
+
     void Start()
     {
+        ApplyUpgrades();
         UpdateDisplay();
+    }
+
+    private void ApplyUpgrades()
+    {
+        float reduction = UpgradeManager.GetMeatTickReduction();
+
+        tickInterval = baseTickInterval - reduction;
+        tickInterval = Mathf.Max(tickInterval, 0.1f); // prevent negative / zero tick rate
+
+        meatPerTick = baseMeatPerTick; // unchanged for now – can add bonus later if wanted
+
+        // Fill debug fields
+        finalTickIntervalDisplay   = tickInterval;
+        finalMeatPerTickDisplay    = meatPerTick;
+        reductionAppliedDisplay    = reduction;
+
+        Debug.Log($"Meat production upgraded | Tick: {tickInterval}s (reduced by {reduction}s) | Per tick: {meatPerTick}");
     }
 
     void Update()
@@ -24,7 +55,7 @@ public class MeatResourceGenerator : MonoBehaviour
 
         if (timer >= tickInterval)
         {
-            timer -= tickInterval; // keeps overflow smooth
+            timer -= tickInterval;
             AddMeat(meatPerTick);
         }
     }
@@ -33,7 +64,6 @@ public class MeatResourceGenerator : MonoBehaviour
     {
         meatCount += amount;
         UpdateDisplay();
-        Debug.Log($"Meat ticked. Current meat: {meatCount}");
     }
 
     private void UpdateDisplay()
@@ -42,10 +72,7 @@ public class MeatResourceGenerator : MonoBehaviour
             meatText.text = meatCount.ToString();
     }
 
-    public int GetMeatCount()
-    {
-        return meatCount;
-    }
+    public int GetMeatCount() => meatCount;
 
     public bool TrySpendMeat(int amount)
     {
@@ -53,11 +80,8 @@ public class MeatResourceGenerator : MonoBehaviour
         {
             meatCount -= amount;
             UpdateDisplay();
-            Debug.Log($"Spent {amount}. Remaining: {meatCount}");
             return true;
         }
-
-        Debug.Log("Not enough meat.");
         return false;
     }
 }

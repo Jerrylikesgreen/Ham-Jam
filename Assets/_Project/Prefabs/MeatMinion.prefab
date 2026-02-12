@@ -293,7 +293,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cec8bf6098227af43a309273972abdac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  maxHealth: 100
+  baseMaxHealth: 100
+  currentHealthDisplay: 0
+  maxHealthAfterUpgrades: 0
 --- !u!114 &4641990758989087220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -306,7 +308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f23ae4dcd61adb5499bb5fbba7f2abee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  moveSpeed: 1
+  baseMoveSpeed: 2
   waypoints: []
 --- !u!114 &7739710166865955339
 MonoBehaviour:
