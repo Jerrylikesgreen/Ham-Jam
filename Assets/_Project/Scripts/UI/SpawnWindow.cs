@@ -84,7 +84,7 @@ public class SpawnWindow : MonoBehaviour
         else
         {
             // Fail → show message
-            ShowNotEnoughMessage();
+            PlayerTextDisplay.Instance.DisplayText("Not enought meat!!");
         }
     }
 
