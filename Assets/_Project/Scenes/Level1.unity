@@ -2807,7 +2807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2afd6d25eae9b34098644d3ebe8b6fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MinionSpawner
-  minionPrefab: {fileID: 8257238584796491122, guid: 58c1ad8a595f2914dab6c728fd7abc7c, type: 3}
+  minionPrefab: {fileID: 8371264711809274640, guid: b1734992455980f4cafe99858a7a3be4, type: 3}
   spawnPoint: {fileID: 1246390374}
 --- !u!4 &1246390374
 Transform:

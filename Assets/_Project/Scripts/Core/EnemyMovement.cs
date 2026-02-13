@@ -6,34 +6,48 @@ public class EnemyMovement : MonoBehaviour
     [Tooltip("Base speed BEFORE upgrades")]
     public float baseMoveSpeed = 3.5f;
 
-    [HideInInspector]
-    public Transform[] waypoints;
+    [HideInInspector] public Transform[] waypoints;
 
-    // ── NEW: Inspector debug fields ──
     [Header("Runtime Debug (Read Only)")]
     [SerializeField, ReadOnly] private float finalMoveSpeedDisplay;
     [SerializeField, ReadOnly] private float speedMultiplierDisplay;
 
-    private float moveSpeed;   // final calculated speed
+    private float moveSpeed;
     private int currentWaypointIndex = 0;
     private bool reachedEnd = false;
+    private Animator animator;
+    private MinionHealth health;  // ← NEW: Reference to check isDead
 
     void Start()
     {
-        // Apply upgrade multiplier
+        animator = GetComponent<Animator>();
+        health = GetComponent<MinionHealth>();  // ← NEW
+
         float multiplier = UpgradeManager.GetSpeedMultiplier();
         moveSpeed = baseMoveSpeed * multiplier;
 
-        // Fill debug fields for Inspector
         finalMoveSpeedDisplay = moveSpeed;
         speedMultiplierDisplay = multiplier;
 
-        Debug.Log($"Minion speed set to {moveSpeed} (base {baseMoveSpeed} × {multiplier}x)");
+        Debug.Log($"[{gameObject.name}] Speed set to {moveSpeed} (base {baseMoveSpeed} × {multiplier}x)");
     }
 
     void Update()
     {
         if (waypoints == null || waypoints.Length == 0) return;
+
+        // NEW: Stop all movement logic if dead
+        if (health != null && health.IsDead)
+        {
+            return;
+        }
+
+        bool isMoving = currentWaypointIndex < waypoints.Length;
+
+        if (animator != null)
+        {
+            animator.SetBool("IsMoving", isMoving);
+        }
 
         if (currentWaypointIndex >= waypoints.Length)
         {

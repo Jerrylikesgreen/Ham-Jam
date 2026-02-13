@@ -54,7 +54,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 1de3459bf5eccba469fe9d7413688867, type: 2}
+  m_Motion: {fileID: 7400000, guid: 1fa6e2967634d1148be733827e3afa58, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -88,7 +88,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hampo
+  m_Name: PrimeRibbit
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: IsMoving
@@ -143,7 +143,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 96c7fbfbd497feb408d7bba046729a44, type: 2}
+  m_Motion: {fileID: 7400000, guid: 2ba851a1ca7bfaa4ca29f53100b8244a, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -245,7 +245,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 1de3459bf5eccba469fe9d7413688867, type: 2}
+  m_Motion: {fileID: 7400000, guid: 1fa6e2967634d1148be733827e3afa58, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -296,7 +296,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: e58cb086a5ba25042b253bfb127ca697, type: 2}
+  m_Motion: {fileID: 7400000, guid: d282920785cf4bc4abb4b4c191bec550, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 29b3da911cecd724987d2dc38c1eebce
+guid: 5aef58341fd156043ae0558c7f2b4373
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4560325410517652792
-    second: HampoDeathAnimation_0
+      213: -6548920052839836902
+    second: PrimeRibbitDeathAnimation_0
   - first:
-      213: 4173261194953562587
-    second: HampoDeathAnimation_1
+      213: -5008965751544713591
+    second: PrimeRibbitDeathAnimation_1
   - first:
-      213: 4919186127648013802
-    second: HampoDeathAnimation_2
+      213: -6061923855721747068
+    second: PrimeRibbitDeathAnimation_2
   - first:
-      213: -888125821480891343
-    second: HampoDeathAnimation_3
+      213: -3915318054233496184
+    second: PrimeRibbitDeathAnimation_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HampoDeathAnimation_0
+      name: PrimeRibbitDeathAnimation_0
       rect:
         serializedVersion: 2
-        x: 97
-        y: 31
-        width: 1144
-        height: 855
+        x: 129
+        y: 57
+        width: 761
+        height: 666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ca68e5633876b0c0800000000000000
-      internalID: -4560325410517652792
+      spriteID: a139c0cd8ef8d15a0800000000000000
+      internalID: -6548920052839836902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HampoDeathAnimation_1
+      name: PrimeRibbitDeathAnimation_1
       rect:
         serializedVersion: 2
-        x: 1612
-        y: 5
-        width: 1342
-        height: 877
+        x: 1115
+        y: 45
+        width: 845
+        height: 605
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd9112822f66ae930800000000000000
-      internalID: 4173261194953562587
+      spriteID: 98e641700349c7ab0800000000000000
+      internalID: -5008965751544713591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HampoDeathAnimation_2
+      name: PrimeRibbitDeathAnimation_2
       rect:
         serializedVersion: 2
-        x: 3107
-        y: 13
-        width: 1400
-        height: 808
+        x: 2132
+        y: 39
+        width: 914
+        height: 489
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aed3d7a58b5744440800000000000000
-      internalID: 4919186127648013802
+      spriteID: 48d2d34ee58bfdba0800000000000000
+      internalID: -6061923855721747068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HampoDeathAnimation_3
+      name: PrimeRibbitDeathAnimation_3
       rect:
         serializedVersion: 2
-        x: 4640
-        y: 0
-        width: 1441
-        height: 837
+        x: 3158
+        y: 45
+        width: 914
+        height: 483
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13c87c6554ebca3f0800000000000000
-      internalID: -888125821480891343
+      spriteID: 8852db259fef9a9c0800000000000000
+      internalID: -3915318054233496184
       vertices: []
       indices: 
       edges: []
@@ -223,10 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      HampoDeathAnimation_0: -4560325410517652792
-      HampoDeathAnimation_1: 4173261194953562587
-      HampoDeathAnimation_2: 4919186127648013802
-      HampoDeathAnimation_3: -888125821480891343
+      PrimeRibbitDeathAnimation_0: -6548920052839836902
+      PrimeRibbitDeathAnimation_1: -5008965751544713591
+      PrimeRibbitDeathAnimation_2: -6061923855721747068
+      PrimeRibbitDeathAnimation_3: -3915318054233496184
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

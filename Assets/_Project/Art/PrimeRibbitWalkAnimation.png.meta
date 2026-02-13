@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: 29b3da911cecd724987d2dc38c1eebce
+guid: d3ea57799f4f2fc48a994318eee4dfd2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4560325410517652792
-    second: HampoDeathAnimation_0
+      213: 6783822503076327672
+    second: PrimeRibbitWalkAnimation_0
   - first:
-      213: 4173261194953562587
-    second: HampoDeathAnimation_1
+      213: -3349078740752674077
+    second: PrimeRibbitWalkAnimation_1
   - first:
-      213: 4919186127648013802
-    second: HampoDeathAnimation_2
+      213: -136375114317096784
+    second: PrimeRibbitWalkAnimation_2
   - first:
-      213: -888125821480891343
-    second: HampoDeathAnimation_3
+      213: -1107359598894783260
+    second: PrimeRibbitWalkAnimation_3
+  - first:
+      213: 1854007089542305241
+    second: PrimeRibbitWalkAnimation_4
+  - first:
+      213: -5359939371205994266
+    second: PrimeRibbitWalkAnimation_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HampoDeathAnimation_0
+      name: PrimeRibbitWalkAnimation_0
       rect:
         serializedVersion: 2
-        x: 97
-        y: 31
-        width: 1144
-        height: 855
+        x: 199
+        y: 57
+        width: 666
+        height: 624
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ca68e5633876b0c0800000000000000
-      internalID: -4560325410517652792
+      spriteID: 8f07a23df9af42e50800000000000000
+      internalID: 6783822503076327672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HampoDeathAnimation_1
+      name: PrimeRibbitWalkAnimation_1
       rect:
         serializedVersion: 2
-        x: 1612
-        y: 5
-        width: 1342
-        height: 877
+        x: 1155
+        y: 57
+        width: 761
+        height: 666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +165,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd9112822f66ae930800000000000000
-      internalID: 4173261194953562587
+      spriteID: 3e2df9421aea581d0800000000000000
+      internalID: -3349078740752674077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HampoDeathAnimation_2
+      name: PrimeRibbitWalkAnimation_2
       rect:
         serializedVersion: 2
-        x: 3107
-        y: 13
-        width: 1400
-        height: 808
+        x: 2263
+        y: 129
+        width: 566
+        height: 974
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aed3d7a58b5744440800000000000000
-      internalID: 4919186127648013802
+      spriteID: 0b81dea5e8f7b1ef0800000000000000
+      internalID: -136375114317096784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HampoDeathAnimation_3
+      name: PrimeRibbitWalkAnimation_3
       rect:
         serializedVersion: 2
-        x: 4640
-        y: 0
-        width: 1441
-        height: 837
+        x: 3289
+        y: 273
+        width: 581
+        height: 1060
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +209,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13c87c6554ebca3f0800000000000000
-      internalID: -888125821480891343
+      spriteID: 4e4e145df4ed1a0f0800000000000000
+      internalID: -1107359598894783260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrimeRibbitWalkAnimation_4
+      rect:
+        serializedVersion: 2
+        x: 4315
+        y: 377
+        width: 680
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5993fff91cab910800000000000000
+      internalID: 1854007089542305241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrimeRibbitWalkAnimation_5
+      rect:
+        serializedVersion: 2
+        x: 5341
+        y: 55
+        width: 672
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8d2a14a8bad95b0800000000000000
+      internalID: -5359939371205994266
       vertices: []
       indices: 
       edges: []
@@ -223,10 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      HampoDeathAnimation_0: -4560325410517652792
-      HampoDeathAnimation_1: 4173261194953562587
-      HampoDeathAnimation_2: 4919186127648013802
-      HampoDeathAnimation_3: -888125821480891343
+      PrimeRibbitWalkAnimation_0: 6783822503076327672
+      PrimeRibbitWalkAnimation_1: -3349078740752674077
+      PrimeRibbitWalkAnimation_2: -136375114317096784
+      PrimeRibbitWalkAnimation_3: -1107359598894783260
+      PrimeRibbitWalkAnimation_4: 1854007089542305241
+      PrimeRibbitWalkAnimation_5: -5359939371205994266
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
