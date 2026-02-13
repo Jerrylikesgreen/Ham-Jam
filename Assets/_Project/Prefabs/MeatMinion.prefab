@@ -240,7 +240,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 11.44, y: 8.566699}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -310,6 +310,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   baseMoveSpeed: 2
   waypoints: []
+  finalMoveSpeedDisplay: 0
+  speedMultiplierDisplay: 0
 --- !u!114 &7739710166865955339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,5 +324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d5f0b8763ed4374aba494560fe1ebef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MinionDamage
-  damagePerAttack: 10
+  baseDamagePerAttack: 10
   attackInterval: 2
+  finalDamageDisplay: 0
+  damageMultiplierDisplay: 0
