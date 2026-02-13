@@ -6,32 +6,44 @@ public class MinionHealth : MonoBehaviour
     [Tooltip("Base health BEFORE upgrades")]
     public float baseMaxHealth = 100f;
 
-    // ── NEW: Inspector-visible debug fields (read-only in Play mode) ──
     [Header("Runtime Debug (Read Only)")]
-    [SerializeField, ReadOnly] private float currentHealthDisplay;     // Shows live current health
-    [SerializeField, ReadOnly] private float maxHealthAfterUpgrades;   // Shows final max health with upgrades
+    [SerializeField, ReadOnly] private float currentHealthDisplay;
+    [SerializeField, ReadOnly] private float maxHealthAfterUpgrades;
 
     private float currentHealth;
+    private bool isDead = false;
+    private Animator animator;
+
+    public bool IsDead => isDead;  // ← NEW: Public getter so EnemyMovement can read it
 
     void Start()
     {
-        // Apply upgrade multiplier
+        animator = GetComponent<Animator>();
+
         int upgradeLevel = UpgradeManager.GetHealthUpgradeLevel();
-        float multiplier = 1f + (upgradeLevel * 0.10f);  // +10% per level
-
+        float multiplier = 1f + (upgradeLevel * 0.10f);
         float finalMaxHealth = baseMaxHealth * multiplier;
-        maxHealthAfterUpgrades = finalMaxHealth;  // ← for Inspector
 
+        maxHealthAfterUpgrades = finalMaxHealth;
         currentHealth = finalMaxHealth;
-        currentHealthDisplay = currentHealth;     // initial value
+        currentHealthDisplay = currentHealth;
 
-        Debug.Log($"Minion spawned | Base: {baseMaxHealth} | Upgrades: {upgradeLevel} | Final Max: {finalMaxHealth}");
+        Debug.Log($"[{gameObject.name}] Spawned | Base: {baseMaxHealth} | Final Max: {finalMaxHealth}");
     }
 
     public void TakeDamage(float damage)
     {
+        if (isDead) return;
+
         currentHealth -= damage;
-        currentHealthDisplay = currentHealth;     // ← updates live in Inspector
+        currentHealthDisplay = currentHealth;
+
+        Debug.Log($"[{gameObject.name}] Took {damage} dmg → health now {currentHealth}");
+
+        if (animator != null)
+        {
+            animator.SetTrigger("TakeHit");
+        }
 
         if (currentHealth <= 0)
         {
@@ -41,6 +53,16 @@ public class MinionHealth : MonoBehaviour
 
     private void Die()
     {
-        Destroy(gameObject);
+        if (isDead) return;
+        isDead = true;
+
+        Debug.Log($"[{gameObject.name}] Dying → playing death anim, destroy in 2s");
+
+        if (animator != null)
+        {
+            animator.SetTrigger("Die");
+        }
+
+        Destroy(gameObject, 2f);
     }
 }
