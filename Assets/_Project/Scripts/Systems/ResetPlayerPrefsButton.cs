@@ -1,27 +1,31 @@
 using UnityEngine;
-using UnityEngine.UI;           // if you want to disable button after reset (optional)
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+using TMPro;
 
 public class ResetPlayerPrefsButton : MonoBehaviour
 {
     [Header("Safety")]
-    [SerializeField] private bool showConfirmationDialog = true;    // Recommended: ask before wiping
-    [SerializeField] private string confirmationMessage = 
+    [SerializeField] private bool showConfirmationDialog = true;
+    [SerializeField]
+    private string confirmationMessage =
         "Are you sure you want to reset ALL progress?\n" +
         "This will delete gold, upgrades, completed levels, etc.\n" +
         "This action cannot be undone.";
 
     [Header("Optional UI Feedback")]
-    [SerializeField] private Button resetButton;                    // Drag your button here (optional)
+    [SerializeField] private Button resetButton;
     [SerializeField] private string successMessage = "Progress reset! Returning to main menu...";
 
     public void ResetAllPlayerPrefs()
     {
         if (showConfirmationDialog)
         {
-            // Simple native dialog (works in builds + editor)
-            #if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBGL
-            if (!UnityEditor.EditorUtility.DisplayDialog(
+#if UNITY_EDITOR
+            if (!EditorUtility.DisplayDialog(
                 "Confirm Reset",
                 confirmationMessage,
                 "Yes, Reset Everything",
@@ -29,32 +33,29 @@ public class ResetPlayerPrefsButton : MonoBehaviour
             {
                 return; // User cancelled
             }
-            #else
-            // For mobile/console - you could use a custom UI popup instead
-            Debug.LogWarning("Confirmation dialog not shown on this platform - resetting directly.");
-            #endif
+#else
+            // WebGL / other platforms - just log or use custom UI
+            Debug.LogWarning("Confirmation dialog not available on this platform - resetting directly.");
+#endif
         }
 
-        // Actually wipe everything
         PlayerPrefs.DeleteAll();
         PlayerPrefs.Save();
 
         Debug.Log("PlayerPrefs have been completely reset.");
 
-        // Optional: visual feedback
         if (resetButton != null)
         {
             resetButton.interactable = false;
-            resetButton.GetComponentInChildren<TMPro.TMP_Text>().text = "Reset Done!";
+            TMP_Text tmp = resetButton.GetComponentInChildren<TMP_Text>();
+            if (tmp != null) tmp.text = "Reset Done!";
         }
 
-        // Optional: reload main menu to refresh any displayed values
-        Invoke(nameof(ReloadMainMenu), 1.5f); // small delay so player sees feedback
+        Invoke(nameof(ReloadMainMenu), 1.5f);
     }
 
     private void ReloadMainMenu()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        // or SceneManager.LoadScene("MainMenu"); if you want to force reload
     }
 }
