@@ -11,6 +11,12 @@ public class CastleHealth : MonoBehaviour
     [Tooltip("Gold given to the player when they win this level")]
     public int goldReward = 100;
 
+
+    [Header("SFX")]
+    [Tooltip("AudioSource to play timer tick SFX")]
+    public SfxPlayer sfxPlayer;
+
+
     private float currentHealth;
     private bool rewardGiven = false;
 
@@ -22,6 +28,8 @@ public class CastleHealth : MonoBehaviour
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
+        sfxPlayer.PlayMinionAtk();
+
         Debug.Log($"Castle Health: {currentHealth}/{maxHealth}");
 
         if (currentHealth <= 0 && !rewardGiven)
