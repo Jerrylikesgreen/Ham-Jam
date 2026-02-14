@@ -1,6 +1,6 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public class DragCameraX : MonoBehaviour
+public class CameraControler : MonoBehaviour
 {
     [Header("Movement")]
     [SerializeField] private float dragSpeed = 0.01f;
@@ -12,8 +12,14 @@ public class DragCameraX : MonoBehaviour
     private Vector3 lastPosition;
     private bool isDragging = false;
 
+    // 🔹 Lock flag for menu pause
+    private bool isLocked = false;
+
     void Update()
     {
+        if (isLocked)
+            return; // Skip movement when locked
+
         // If touching screen, prioritize touch input
         if (Input.touchCount > 0)
         {
@@ -76,7 +82,6 @@ public class DragCameraX : MonoBehaviour
     void MoveCamera(float deltaX)
     {
         float newX = transform.position.x - deltaX * dragSpeed;
-
         newX = Mathf.Clamp(newX, minX, maxX);
 
         transform.position = new Vector3(
@@ -84,5 +89,11 @@ public class DragCameraX : MonoBehaviour
             transform.position.y,
             transform.position.z
         );
+    }
+
+    // 🔹 Public method to lock/unlock camera (call from MenuPauseController)
+    public void LockMovement(bool locked)
+    {
+        isLocked = locked;
     }
 }
