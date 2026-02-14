@@ -78,7 +78,7 @@ public class SpawnWindow : MonoBehaviour
         {
             // Success → spawn & reset cooldown
             ResetMobTimer(mobIndex);
-            spawner.SpawnMinion();  // Your teammate's spawn logic
+            spawner.SpawnMinion(mobIndex);  // Your teammate's spawn logic
             Debug.Log($"Spawned mob {mobIndex} for {cost} meat");
         }
         else

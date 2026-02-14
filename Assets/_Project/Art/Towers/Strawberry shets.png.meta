@@ -1,0 +1,2886 @@
+fileFormatVersion: 2
+guid: 86a0e80719ca2dd4aab923a3c189535d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7540771404455236234
+    second: Strawberry shets_0
+  - first:
+      213: 260990547080469681
+    second: Strawberry shets_1
+  - first:
+      213: -4103934467040697887
+    second: Strawberry shets_2
+  - first:
+      213: 409950320678117005
+    second: Strawberry shets_3
+  - first:
+      213: 2776261418123359696
+    second: Strawberry shets_4
+  - first:
+      213: -6954765811900267176
+    second: Strawberry shets_5
+  - first:
+      213: -8109286578790623665
+    second: Strawberry shets_6
+  - first:
+      213: 6474631134552904919
+    second: Strawberry shets_7
+  - first:
+      213: 8255387780297449611
+    second: Strawberry shets_8
+  - first:
+      213: 8278693152447183670
+    second: Strawberry shets_9
+  - first:
+      213: -1256723516320119500
+    second: Strawberry shets_10
+  - first:
+      213: -6857350504514257455
+    second: Strawberry shets_11
+  - first:
+      213: 7709995347741878979
+    second: Strawberry shets_12
+  - first:
+      213: -4381560614933480773
+    second: Strawberry shets_13
+  - first:
+      213: 1581900703807892223
+    second: Strawberry shets_14
+  - first:
+      213: 8337596192955210333
+    second: Strawberry shets_15
+  - first:
+      213: -8072297844122777645
+    second: Strawberry shets_16
+  - first:
+      213: 2622930278999034298
+    second: Strawberry shets_17
+  - first:
+      213: -5593236801554529944
+    second: Strawberry shets_18
+  - first:
+      213: 4569555916832934475
+    second: Strawberry shets_19
+  - first:
+      213: 8780753163460728108
+    second: Strawberry shets_20
+  - first:
+      213: 2794975956634395386
+    second: Strawberry shets_21
+  - first:
+      213: 6884132758128338187
+    second: Strawberry shets_22
+  - first:
+      213: 2183014742244013100
+    second: Strawberry shets_23
+  - first:
+      213: 4103938031524028833
+    second: Strawberry shets_24
+  - first:
+      213: -8471489268209689365
+    second: Strawberry shets_25
+  - first:
+      213: -1708845378379526772
+    second: Strawberry shets_26
+  - first:
+      213: 3674058694183742672
+    second: Strawberry shets_27
+  - first:
+      213: 4335727443266047005
+    second: Strawberry shets_28
+  - first:
+      213: -590703635485708917
+    second: Strawberry shets_29
+  - first:
+      213: -5403907497255506352
+    second: Strawberry shets_30
+  - first:
+      213: 5986837033984543673
+    second: Strawberry shets_31
+  - first:
+      213: -6009048419592839977
+    second: Strawberry shets_32
+  - first:
+      213: -6567315207834430062
+    second: Strawberry shets_33
+  - first:
+      213: -6903499578527389947
+    second: Strawberry shets_34
+  - first:
+      213: 1916791606395288185
+    second: Strawberry shets_35
+  - first:
+      213: -2452363588956058636
+    second: Strawberry shets_36
+  - first:
+      213: 2885188817376054297
+    second: Strawberry shets_37
+  - first:
+      213: -7390728908334908509
+    second: Strawberry shets_38
+  - first:
+      213: 7229222756445957007
+    second: Strawberry shets_39
+  - first:
+      213: 4941338321417177194
+    second: Strawberry shets_40
+  - first:
+      213: 3161885163735788861
+    second: Strawberry shets_41
+  - first:
+      213: 304428952522230757
+    second: Strawberry shets_42
+  - first:
+      213: -4886847925092768319
+    second: Strawberry shets_43
+  - first:
+      213: -5971962949119745563
+    second: Strawberry shets_44
+  - first:
+      213: 3949260004583483386
+    second: Strawberry shets_45
+  - first:
+      213: 2088619769108322817
+    second: Strawberry shets_46
+  - first:
+      213: 6885486071576069427
+    second: Strawberry shets_47
+  - first:
+      213: -4688486515983409576
+    second: Strawberry shets_48
+  - first:
+      213: -1726426405692384867
+    second: Strawberry shets_49
+  - first:
+      213: -240713119708378134
+    second: Strawberry shets_50
+  - first:
+      213: -883463365469976589
+    second: Strawberry shets_51
+  - first:
+      213: 4187572665541297883
+    second: Strawberry shets_52
+  - first:
+      213: 3064857782287625215
+    second: Strawberry shets_53
+  - first:
+      213: -4678686517522976655
+    second: Strawberry shets_54
+  - first:
+      213: -3539141158484423627
+    second: Strawberry shets_55
+  - first:
+      213: 8558707815851223858
+    second: Strawberry shets_56
+  - first:
+      213: 2763204694294617031
+    second: Strawberry shets_57
+  - first:
+      213: 1013938765163598651
+    second: Strawberry shets_58
+  - first:
+      213: 634460850064722169
+    second: Strawberry shets_59
+  - first:
+      213: -6828623477297704928
+    second: Strawberry shets_60
+  - first:
+      213: 1816469190022407494
+    second: Strawberry shets_61
+  - first:
+      213: -8586349891640637057
+    second: Strawberry shets_62
+  - first:
+      213: 2884285640389347278
+    second: Strawberry shets_63
+  - first:
+      213: -3974740662036267994
+    second: Strawberry shets_64
+  - first:
+      213: -186913433178923220
+    second: Strawberry shets_65
+  - first:
+      213: 6991003573235634810
+    second: Strawberry shets_66
+  - first:
+      213: 7862066113273597343
+    second: Strawberry shets_67
+  - first:
+      213: -7386332693035436787
+    second: Strawberry shets_68
+  - first:
+      213: -6199572745061441352
+    second: Strawberry shets_69
+  - first:
+      213: -3782225619127229098
+    second: Strawberry shets_70
+  - first:
+      213: 3898444676861029999
+    second: Strawberry shets_71
+  - first:
+      213: -3080190466657135066
+    second: Strawberry shets_72
+  - first:
+      213: -6621604687197628305
+    second: Strawberry shets_73
+  - first:
+      213: -195642885639008447
+    second: Strawberry shets_74
+  - first:
+      213: -8297960549430286591
+    second: Strawberry shets_75
+  - first:
+      213: -5282835692424294549
+    second: Strawberry shets_76
+  - first:
+      213: 6115653682477876912
+    second: Strawberry shets_77
+  - first:
+      213: 3862527117556975318
+    second: Strawberry shets_78
+  - first:
+      213: 3618020445266966135
+    second: Strawberry shets_79
+  - first:
+      213: 7926458584963120786
+    second: Strawberry shets_80
+  - first:
+      213: 1415840524257659461
+    second: Strawberry shets_81
+  - first:
+      213: -9000234317965929386
+    second: Strawberry shets_82
+  - first:
+      213: -3356627351285433496
+    second: Strawberry shets_83
+  - first:
+      213: 882927634617935855
+    second: Strawberry shets_84
+  - first:
+      213: 2753154681982015669
+    second: Strawberry shets_85
+  - first:
+      213: 5938543531233258778
+    second: Strawberry shets_86
+  - first:
+      213: -5207428763545180349
+    second: Strawberry shets_87
+  - first:
+      213: 4817686527076640343
+    second: Strawberry shets_88
+  - first:
+      213: -3905526850691445945
+    second: Strawberry shets_89
+  - first:
+      213: -2172716878420976706
+    second: Strawberry shets_90
+  - first:
+      213: -8714704571286173697
+    second: Strawberry shets_91
+  - first:
+      213: 1643493337882939225
+    second: Strawberry shets_92
+  - first:
+      213: 4688602608848421993
+    second: Strawberry shets_93
+  - first:
+      213: 2292338118518055313
+    second: Strawberry shets_94
+  - first:
+      213: -8755031050256437995
+    second: Strawberry shets_95
+  - first:
+      213: -7561715649861146364
+    second: Strawberry shets_96
+  - first:
+      213: -2727345495543046721
+    second: Strawberry shets_97
+  - first:
+      213: 3625938702514191259
+    second: Strawberry shets_98
+  - first:
+      213: 3513436730699822513
+    second: Strawberry shets_99
+  - first:
+      213: -2155416257972092332
+    second: Strawberry shets_100
+  - first:
+      213: -5064581505302701364
+    second: Strawberry shets_101
+  - first:
+      213: 1856120330964706272
+    second: Strawberry shets_102
+  - first:
+      213: 309326765234676066
+    second: Strawberry shets_103
+  - first:
+      213: 8215502572217834018
+    second: Strawberry shets_104
+  - first:
+      213: -1439935028009545729
+    second: Strawberry shets_105
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Strawberry shets_0
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 8965
+        width: 108
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67da5014c5cc95790800000000000000
+      internalID: -7540771404455236234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_1
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 9008
+        width: 102
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc577015893f9300800000000000000
+      internalID: 260990547080469681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_2
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 8968
+        width: 106
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1ae868855eb07c0800000000000000
+      internalID: -4103934467040697887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_3
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 9004
+        width: 102
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e939705af60b500800000000000000
+      internalID: 409950320678117005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_4
+      rect:
+        serializedVersion: 2
+        x: 2887
+        y: 8913
+        width: 165
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d57ddeec03478620800000000000000
+      internalID: 2776261418123359696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_5
+      rect:
+        serializedVersion: 2
+        x: 4668
+        y: 8973
+        width: 105
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85547ad8755bb7f90800000000000000
+      internalID: -6954765811900267176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_6
+      rect:
+        serializedVersion: 2
+        x: 4755
+        y: 9000
+        width: 102
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46975942d6067f80800000000000000
+      internalID: -8109286578790623665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_7
+      rect:
+        serializedVersion: 2
+        x: 4807
+        y: 8915
+        width: 167
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4d5ba76b28ad950800000000000000
+      internalID: 6474631134552904919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_8
+      rect:
+        serializedVersion: 2
+        x: 6589
+        y: 8976
+        width: 102
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80eabf7277019270800000000000000
+      internalID: 8255387780297449611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_9
+      rect:
+        serializedVersion: 2
+        x: 6675
+        y: 8996
+        width: 102
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bb21c4f83d3e270800000000000000
+      internalID: 8278693152447183670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_10
+      rect:
+        serializedVersion: 2
+        x: 6727
+        y: 8918
+        width: 170
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4350cdcce983f8ee0800000000000000
+      internalID: -1256723516320119500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_11
+      rect:
+        serializedVersion: 2
+        x: 8510
+        y: 8978
+        width: 100
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ddf4164c0cc5d0a0800000000000000
+      internalID: -6857350504514257455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_12
+      rect:
+        serializedVersion: 2
+        x: 8595
+        y: 8992
+        width: 102
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3caa1126be76ffa60800000000000000
+      internalID: 7709995347741878979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_13
+      rect:
+        serializedVersion: 2
+        x: 8648
+        y: 8921
+        width: 171
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba3c01d5d19133c0800000000000000
+      internalID: -4381560614933480773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_14
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 8912
+        width: 164
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffae8601f4a04f510800000000000000
+      internalID: 1581900703807892223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_15
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 8908
+        width: 163
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a9eb1209715b370800000000000000
+      internalID: 8337596192955210333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_16
+      rect:
+        serializedVersion: 2
+        x: 2718
+        y: 8918
+        width: 167
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d709ef21ef69ff80800000000000000
+      internalID: -8072297844122777645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_17
+      rect:
+        serializedVersion: 2
+        x: 4635
+        y: 8923
+        width: 169
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab98a5e1135866420800000000000000
+      internalID: 2622930278999034298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_18
+      rect:
+        serializedVersion: 2
+        x: 6552
+        y: 8927
+        width: 171
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86143b263c4d062b0800000000000000
+      internalID: -5593236801554529944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_19
+      rect:
+        serializedVersion: 2
+        x: 8469
+        y: 8932
+        width: 173
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a8c1455e25a6f30800000000000000
+      internalID: 4569555916832934475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_20
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 8201
+        width: 686
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25d670da708bd970800000000000000
+      internalID: 8780753163460728108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_21
+      rect:
+        serializedVersion: 2
+        x: 2547
+        y: 8201
+        width: 690
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af263faf2dfb9c620800000000000000
+      internalID: 2794975956634395386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_22
+      rect:
+        serializedVersion: 2
+        x: 4461
+        y: 8201
+        width: 695
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05aed2154a598f50800000000000000
+      internalID: 6884132758128338187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_23
+      rect:
+        serializedVersion: 2
+        x: 6375
+        y: 8201
+        width: 699
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2435ea8750ab4e10800000000000000
+      internalID: 2183014742244013100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_24
+      rect:
+        serializedVersion: 2
+        x: 8289
+        y: 8201
+        width: 704
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1a43565ed14f830800000000000000
+      internalID: 4103938031524028833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_25
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 7061
+        width: 98
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: becd3d9f4693f6a80800000000000000
+      internalID: -8471489268209689365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_26
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 7067
+        width: 102
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8dce95ae26f848e0800000000000000
+      internalID: -1708845378379526772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_27
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 7004
+        width: 172
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dce1c69ae0ecf230800000000000000
+      internalID: 3674058694183742672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_28
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 7061
+        width: 96
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c09c253299b2c30800000000000000
+      internalID: 4335727443266047005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_29
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 7063
+        width: 102
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8da7575c266dc7f0800000000000000
+      internalID: -590703635485708917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_30
+      rect:
+        serializedVersion: 2
+        x: 2890
+        y: 7006
+        width: 173
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ee30b23c67105b0800000000000000
+      internalID: -5403907497255506352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_31
+      rect:
+        serializedVersion: 2
+        x: 4622
+        y: 7024
+        width: 173
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb4dc21094851350800000000000000
+      internalID: 5986837033984543673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_32
+      rect:
+        serializedVersion: 2
+        x: 4674
+        y: 7063
+        width: 92
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcdb08bc429b9ca0800000000000000
+      internalID: -6009048419592839977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_33
+      rect:
+        serializedVersion: 2
+        x: 4755
+        y: 7059
+        width: 102
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29512051d953cd4a0800000000000000
+      internalID: -6567315207834430062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_34
+      rect:
+        serializedVersion: 2
+        x: 4811
+        y: 7009
+        width: 173
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507e0daa5b7d130a0800000000000000
+      internalID: -6903499578527389947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_35
+      rect:
+        serializedVersion: 2
+        x: 6541
+        y: 7027
+        width: 171
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a34a77fcfc99a10800000000000000
+      internalID: 1916791606395288185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_36
+      rect:
+        serializedVersion: 2
+        x: 6595
+        y: 7063
+        width: 89
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb0c2c1f4477fdd0800000000000000
+      internalID: -2452363588956058636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_37
+      rect:
+        serializedVersion: 2
+        x: 6675
+        y: 7054
+        width: 102
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c01a961ff3a0820800000000000000
+      internalID: 2885188817376054297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_38
+      rect:
+        serializedVersion: 2
+        x: 6749
+        y: 7049
+        width: 108
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abbc73373bde6990800000000000000
+      internalID: -7390728908334908509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_39
+      rect:
+        serializedVersion: 2
+        x: 8459
+        y: 7030
+        width: 316
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ba1208bcb535460800000000000000
+      internalID: 7229222756445957007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_40
+      rect:
+        serializedVersion: 2
+        x: 8517
+        y: 7064
+        width: 85
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a688813e509239440800000000000000
+      internalID: 4941338321417177194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_41
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 7016
+        width: 174
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3dac05ddc541eb20800000000000000
+      internalID: 3161885163735788861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_42
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 7020
+        width: 173
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb8e66f48c893400800000000000000
+      internalID: 304428952522230757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_43
+      rect:
+        serializedVersion: 2
+        x: 6733
+        y: 7011
+        width: 173
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5ad7924bd6e2cb0800000000000000
+      internalID: -4886847925092768319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_44
+      rect:
+        serializedVersion: 2
+        x: 8655
+        y: 7012
+        width: 172
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e16ceda6535f1da0800000000000000
+      internalID: -5971962949119745563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_45
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 6281
+        width: 708
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af72bd2dc079ec630800000000000000
+      internalID: 3949260004583483386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_46
+      rect:
+        serializedVersion: 2
+        x: 2519
+        y: 6281
+        width: 712
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a5f803d944cfc10800000000000000
+      internalID: 2088619769108322817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_47
+      rect:
+        serializedVersion: 2
+        x: 4434
+        y: 6281
+        width: 720
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335013ae9192e8f50800000000000000
+      internalID: 6885486071576069427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_48
+      rect:
+        serializedVersion: 2
+        x: 6349
+        y: 6281
+        width: 734
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e9998ba562feeb0800000000000000
+      internalID: -4688486515983409576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_49
+      rect:
+        serializedVersion: 2
+        x: 8265
+        y: 6281
+        width: 746
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99d9ddb4508a08e0800000000000000
+      internalID: -1726426405692384867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_50
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 5108
+        width: 171
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb810761b0d8acf0800000000000000
+      internalID: -240713119708378134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_51
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 5143
+        width: 89
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f74719ffbe4db3f0800000000000000
+      internalID: -883463365469976589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_52
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 5134
+        width: 102
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd689b0172f3d1a30800000000000000
+      internalID: 4187572665541297883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_53
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 5129
+        width: 108
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb68582aef888a20800000000000000
+      internalID: 3064857782287625215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_54
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 5105
+        width: 172
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17032aba667f11fb0800000000000000
+      internalID: -4678686517522976655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_55
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 5142
+        width: 89
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c42961ed172eec0800000000000000
+      internalID: -3539141158484423627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_56
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 5137
+        width: 102
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23beb2c9963a6c670800000000000000
+      internalID: 8558707815851223858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_57
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 5089
+        width: 177
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb5f158700e85620800000000000000
+      internalID: 2763204694294617031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_58
+      rect:
+        serializedVersion: 2
+        x: 4673
+        y: 5143
+        width: 94
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3313915feb321e00800000000000000
+      internalID: 1013938765163598651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_59
+      rect:
+        serializedVersion: 2
+        x: 4755
+        y: 5143
+        width: 102
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8000818ce0ec800800000000000000
+      internalID: 634460850064722169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_60
+      rect:
+        serializedVersion: 2
+        x: 4794
+        y: 5087
+        width: 190
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02017c2802bdb31a0800000000000000
+      internalID: -6828623477297704928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_61
+      rect:
+        serializedVersion: 2
+        x: 6592
+        y: 5141
+        width: 96
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6452ab0ba15653910800000000000000
+      internalID: 1816469190022407494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_62
+      rect:
+        serializedVersion: 2
+        x: 6675
+        y: 5146
+        width: 102
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79cb87144827d880800000000000000
+      internalID: -8586349891640637057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_63
+      rect:
+        serializedVersion: 2
+        x: 6729
+        y: 5085
+        width: 173
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7ca22228a070820800000000000000
+      internalID: 2884285640389347278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_64
+      rect:
+        serializedVersion: 2
+        x: 8511
+        y: 5139
+        width: 98
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62cf60d4d62e6d8c0800000000000000
+      internalID: -3974740662036267994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_65
+      rect:
+        serializedVersion: 2
+        x: 8595
+        y: 5149
+        width: 102
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f1f9b0933f76df0800000000000000
+      internalID: -186913433178923220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_66
+      rect:
+        serializedVersion: 2
+        x: 8648
+        y: 5083
+        width: 172
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72523eb5b8050160800000000000000
+      internalID: 6991003573235634810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_67
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 5091
+        width: 173
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d0f4a997bab1d60800000000000000
+      internalID: 7862066113273597343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_68
+      rect:
+        serializedVersion: 2
+        x: 4624
+        y: 5101
+        width: 173
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05b4c6dc897e7990800000000000000
+      internalID: -7386332693035436787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_69
+      rect:
+        serializedVersion: 2
+        x: 6545
+        y: 5097
+        width: 173
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b06b636f61b6f9a0800000000000000
+      internalID: -6199572745061441352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_70
+      rect:
+        serializedVersion: 2
+        x: 8467
+        y: 5094
+        width: 173
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6552a87a6d5d28bc0800000000000000
+      internalID: -3782225619127229098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_71
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 4361
+        width: 736
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e60dc57ce0a1630800000000000000
+      internalID: 3898444676861029999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_72
+      rect:
+        serializedVersion: 2
+        x: 2513
+        y: 4361
+        width: 724
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6265b521717f045d0800000000000000
+      internalID: -3080190466657135066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_73
+      rect:
+        serializedVersion: 2
+        x: 4437
+        y: 4361
+        width: 713
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f681688ae955b14a0800000000000000
+      internalID: -6621604687197628305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_74
+      rect:
+        serializedVersion: 2
+        x: 6362
+        y: 4361
+        width: 709
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f87a205dfe84df0800000000000000
+      internalID: -195642885639008447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_75
+      rect:
+        serializedVersion: 2
+        x: 8286
+        y: 4361
+        width: 706
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107a00348d8b7dc80800000000000000
+      internalID: -8297960549430286591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_76
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 3217
+        width: 102
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f8b4a6de89fa6b0800000000000000
+      internalID: -5282835692424294549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_77
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 3234
+        width: 102
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b647614f9a2fd450800000000000000
+      internalID: 6115653682477876912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_78
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 3160
+        width: 180
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d60c49e2f37a9530800000000000000
+      internalID: 3862527117556975318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_79
+      rect:
+        serializedVersion: 2
+        x: 2749
+        y: 3214
+        width: 103
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776fc360d6ac53230800000000000000
+      internalID: 3618020445266966135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_80
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 3237
+        width: 102
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e729b3610700e60800000000000000
+      internalID: 7926458584963120786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_81
+      rect:
+        serializedVersion: 2
+        x: 2887
+        y: 3158
+        width: 169
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a0bf2947316a310800000000000000
+      internalID: 1415840524257659461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_82
+      rect:
+        serializedVersion: 2
+        x: 4667
+        y: 3211
+        width: 104
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6545c56b29eb81380800000000000000
+      internalID: -9000234317965929386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_83
+      rect:
+        serializedVersion: 2
+        x: 4755
+        y: 3242
+        width: 102
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b754b453dda61d0800000000000000
+      internalID: -3356627351285433496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_84
+      rect:
+        serializedVersion: 2
+        x: 4797
+        y: 3154
+        width: 177
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe727c7710ac04c00800000000000000
+      internalID: 882927634617935855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_85
+      rect:
+        serializedVersion: 2
+        x: 6587
+        y: 3208
+        width: 106
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8dd3fa89b253620800000000000000
+      internalID: 2753154681982015669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_86
+      rect:
+        serializedVersion: 2
+        x: 6675
+        y: 3245
+        width: 102
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d2a5eb0e1f96250800000000000000
+      internalID: 5938543531233258778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_87
+      rect:
+        serializedVersion: 2
+        x: 6727
+        y: 3151
+        width: 164
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347ecb3312f7bb7b0800000000000000
+      internalID: -5207428763545180349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_88
+      rect:
+        serializedVersion: 2
+        x: 8506
+        y: 3205
+        width: 108
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756a6950f5cdbd240800000000000000
+      internalID: 4817686527076640343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_89
+      rect:
+        serializedVersion: 2
+        x: 8595
+        y: 3248
+        width: 102
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b49cb8508ccc9c0800000000000000
+      internalID: -3905526850691445945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_90
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 2441
+        width: 703
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbd838b285f8d1e0800000000000000
+      internalID: -2172716878420976706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_91
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 3169
+        width: 171
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7c30a6d562f0780800000000000000
+      internalID: -8714704571286173697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_92
+      rect:
+        serializedVersion: 2
+        x: 2537
+        y: 2441
+        width: 698
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fcb33bb7cdec610800000000000000
+      internalID: 1643493337882939225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_93
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 3166
+        width: 170
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96441614b33411140800000000000000
+      internalID: 4688602608848421993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_94
+      rect:
+        serializedVersion: 2
+        x: 4462
+        y: 2441
+        width: 694
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1912b5b9f5500df10800000000000000
+      internalID: 2292338118518055313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_95
+      rect:
+        serializedVersion: 2
+        x: 4635
+        y: 3161
+        width: 169
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d23fb55a1ef7680800000000000000
+      internalID: -8755031050256437995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_96
+      rect:
+        serializedVersion: 2
+        x: 6387
+        y: 2441
+        width: 690
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409a38d1ea36f0790800000000000000
+      internalID: -7561715649861146364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_97
+      rect:
+        serializedVersion: 2
+        x: 6559
+        y: 3158
+        width: 166
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd156ec8b5862ad0800000000000000
+      internalID: -2727345495543046721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_98
+      rect:
+        serializedVersion: 2
+        x: 8312
+        y: 2441
+        width: 686
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9bf2b4f90ce15230800000000000000
+      internalID: 3625938702514191259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_99
+      rect:
+        serializedVersion: 2
+        x: 8482
+        y: 3152
+        width: 164
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b53c22771c32c030800000000000000
+      internalID: 3513436730699822513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_100
+      rect:
+        serializedVersion: 2
+        x: 8646
+        y: 3148
+        width: 163
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452c870555c6612e0800000000000000
+      internalID: -2155416257972092332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_101
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1285
+        width: 108
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca5b6844fdf6b9b0800000000000000
+      internalID: -5064581505302701364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_102
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1328
+        width: 102
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3288b5b9342c910800000000000000
+      internalID: 1856120330964706272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_103
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 521
+        width: 686
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2616559dd03fa4400800000000000000
+      internalID: 309326765234676066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_104
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1232
+        width: 164
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a1a54df04530270800000000000000
+      internalID: 8215502572217834018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry shets_105
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1228
+        width: 163
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff49db98b2540ce0800000000000000
+      internalID: -1439935028009545729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Strawberry shets_0: -7540771404455236234
+      Strawberry shets_1: 260990547080469681
+      Strawberry shets_10: -1256723516320119500
+      Strawberry shets_100: -2155416257972092332
+      Strawberry shets_101: -5064581505302701364
+      Strawberry shets_102: 1856120330964706272
+      Strawberry shets_103: 309326765234676066
+      Strawberry shets_104: 8215502572217834018
+      Strawberry shets_105: -1439935028009545729
+      Strawberry shets_11: -6857350504514257455
+      Strawberry shets_12: 7709995347741878979
+      Strawberry shets_13: -4381560614933480773
+      Strawberry shets_14: 1581900703807892223
+      Strawberry shets_15: 8337596192955210333
+      Strawberry shets_16: -8072297844122777645
+      Strawberry shets_17: 2622930278999034298
+      Strawberry shets_18: -5593236801554529944
+      Strawberry shets_19: 4569555916832934475
+      Strawberry shets_2: -4103934467040697887
+      Strawberry shets_20: 8780753163460728108
+      Strawberry shets_21: 2794975956634395386
+      Strawberry shets_22: 6884132758128338187
+      Strawberry shets_23: 2183014742244013100
+      Strawberry shets_24: 4103938031524028833
+      Strawberry shets_25: -8471489268209689365
+      Strawberry shets_26: -1708845378379526772
+      Strawberry shets_27: 3674058694183742672
+      Strawberry shets_28: 4335727443266047005
+      Strawberry shets_29: -590703635485708917
+      Strawberry shets_3: 409950320678117005
+      Strawberry shets_30: -5403907497255506352
+      Strawberry shets_31: 5986837033984543673
+      Strawberry shets_32: -6009048419592839977
+      Strawberry shets_33: -6567315207834430062
+      Strawberry shets_34: -6903499578527389947
+      Strawberry shets_35: 1916791606395288185
+      Strawberry shets_36: -2452363588956058636
+      Strawberry shets_37: 2885188817376054297
+      Strawberry shets_38: -7390728908334908509
+      Strawberry shets_39: 7229222756445957007
+      Strawberry shets_4: 2776261418123359696
+      Strawberry shets_40: 4941338321417177194
+      Strawberry shets_41: 3161885163735788861
+      Strawberry shets_42: 304428952522230757
+      Strawberry shets_43: -4886847925092768319
+      Strawberry shets_44: -5971962949119745563
+      Strawberry shets_45: 3949260004583483386
+      Strawberry shets_46: 2088619769108322817
+      Strawberry shets_47: 6885486071576069427
+      Strawberry shets_48: -4688486515983409576
+      Strawberry shets_49: -1726426405692384867
+      Strawberry shets_5: -6954765811900267176
+      Strawberry shets_50: -240713119708378134
+      Strawberry shets_51: -883463365469976589
+      Strawberry shets_52: 4187572665541297883
+      Strawberry shets_53: 3064857782287625215
+      Strawberry shets_54: -4678686517522976655
+      Strawberry shets_55: -3539141158484423627
+      Strawberry shets_56: 8558707815851223858
+      Strawberry shets_57: 2763204694294617031
+      Strawberry shets_58: 1013938765163598651
+      Strawberry shets_59: 634460850064722169
+      Strawberry shets_6: -8109286578790623665
+      Strawberry shets_60: -6828623477297704928
+      Strawberry shets_61: 1816469190022407494
+      Strawberry shets_62: -8586349891640637057
+      Strawberry shets_63: 2884285640389347278
+      Strawberry shets_64: -3974740662036267994
+      Strawberry shets_65: -186913433178923220
+      Strawberry shets_66: 6991003573235634810
+      Strawberry shets_67: 7862066113273597343
+      Strawberry shets_68: -7386332693035436787
+      Strawberry shets_69: -6199572745061441352
+      Strawberry shets_7: 6474631134552904919
+      Strawberry shets_70: -3782225619127229098
+      Strawberry shets_71: 3898444676861029999
+      Strawberry shets_72: -3080190466657135066
+      Strawberry shets_73: -6621604687197628305
+      Strawberry shets_74: -195642885639008447
+      Strawberry shets_75: -8297960549430286591
+      Strawberry shets_76: -5282835692424294549
+      Strawberry shets_77: 6115653682477876912
+      Strawberry shets_78: 3862527117556975318
+      Strawberry shets_79: 3618020445266966135
+      Strawberry shets_8: 8255387780297449611
+      Strawberry shets_80: 7926458584963120786
+      Strawberry shets_81: 1415840524257659461
+      Strawberry shets_82: -9000234317965929386
+      Strawberry shets_83: -3356627351285433496
+      Strawberry shets_84: 882927634617935855
+      Strawberry shets_85: 2753154681982015669
+      Strawberry shets_86: 5938543531233258778
+      Strawberry shets_87: -5207428763545180349
+      Strawberry shets_88: 4817686527076640343
+      Strawberry shets_89: -3905526850691445945
+      Strawberry shets_9: 8278693152447183670
+      Strawberry shets_90: -2172716878420976706
+      Strawberry shets_91: -8714704571286173697
+      Strawberry shets_92: 1643493337882939225
+      Strawberry shets_93: 4688602608848421993
+      Strawberry shets_94: 2292338118518055313
+      Strawberry shets_95: -8755031050256437995
+      Strawberry shets_96: -7561715649861146364
+      Strawberry shets_97: -2727345495543046721
+      Strawberry shets_98: 3625938702514191259
+      Strawberry shets_99: 3513436730699822513
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

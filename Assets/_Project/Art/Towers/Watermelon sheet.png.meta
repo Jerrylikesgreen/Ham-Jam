@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: ed00f2bb39f808644bc7d2629e581b2c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2330500956096747689
+    second: Watermelon sheet_0
+  - first:
+      213: -3127163188822239216
+    second: Watermelon sheet_1
+  - first:
+      213: -2980756065812185262
+    second: Watermelon sheet_2
+  - first:
+      213: -136850502957241782
+    second: Watermelon sheet_3
+  - first:
+      213: 2121711833118716075
+    second: Watermelon sheet_4
+  - first:
+      213: 4289603723429380774
+    second: Watermelon sheet_5
+  - first:
+      213: 4445829677840433011
+    second: Watermelon sheet_6
+  - first:
+      213: 3163135233534656560
+    second: Watermelon sheet_7
+  - first:
+      213: 1280538771957696992
+    second: Watermelon sheet_8
+  - first:
+      213: 6947136668871955414
+    second: Watermelon sheet_9
+  - first:
+      213: 3088777723887526411
+    second: Watermelon sheet_10
+  - first:
+      213: 3396689567712254470
+    second: Watermelon sheet_11
+  - first:
+      213: -2591766777493344771
+    second: Watermelon sheet_12
+  - first:
+      213: 1357323952986406462
+    second: Watermelon sheet_13
+  - first:
+      213: -2508729702093215559
+    second: Watermelon sheet_14
+  - first:
+      213: -2483222158153615868
+    second: Watermelon sheet_15
+  - first:
+      213: -6453068032984504784
+    second: Watermelon sheet_16
+  - first:
+      213: 5877054938272436270
+    second: Watermelon sheet_17
+  - first:
+      213: -8370277639430856697
+    second: Watermelon sheet_18
+  - first:
+      213: -6386048812252326670
+    second: Watermelon sheet_19
+  - first:
+      213: -6479480240041129701
+    second: Watermelon sheet_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Watermelon sheet_0
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 5972
+        width: 841
+        height: 1560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757252b5ab568afd0800000000000000
+      internalID: -2330500956096747689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watermelon sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 5972
+        width: 841
+        height: 1565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018929fe5a51a94d0800000000000000
+      internalID: -3127163188822239216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watermelon sheet_2
+      rect:
+        serializedVersion: 2
+        x: 4388
+        y: 5972
+        width: 841
+        height: 1576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f7c2f962a32a6d0800000000000000
+      internalID: -2980756065812185262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watermelon sheet_3
+      rect:
+        serializedVersion: 2
+        x: 6308
+        y: 5972
+        width: 841
+        height: 1593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a66ef413fc91ef0800000000000000
+      internalID: -136850502957241782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watermelon sheet_4
+      rect:
+        serializedVersion: 2
+        x: 8228
+        y: 5972
+        width: 841
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0b8c0cba5d17d10800000000000000
+      internalID: 2121711833118716075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watermelon sheet_5
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 4052
+        width: 841
+        height: 1636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a28332fbdbb78b30800000000000000
+      internalID: 4289603723429380774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watermelon sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 4052
+        width: 841
+        height: 1658
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f71977982c2bd30800000000000000
+      internalID: 4445829677840433011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watermelon sheet_7
+      rect:
+        serializedVersion: 2
+        x: 4388
+        y: 4052
+        width: 841
+        height: 1678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0300b536cb6b5eb20800000000000000
+      internalID: 3163135233534656560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watermelon sheet_8
+      rect:
+        serializedVersion: 2
+        x: 6308
+        y: 4052
+        width: 841
+        height: 1694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e947af7a3365c110800000000000000
+      internalID: 1280538771957696992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watermelon sheet_9
+      rect:
+        serializedVersion: 2
+        x: 8228
+        y: 4052
+        width: 841
+        height: 1707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3143a2eff296060800000000000000
+      internalID: 6947136668871955414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watermelon sheet_10
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 2132
+        width: 841
+        height: 1147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02a47e89fa8dda20800000000000000
+      internalID: 3088777723887526411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watermelon sheet_11
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 3278
+        width: 671
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a93c75a27732f20800000000000000
+      internalID: 3396689567712254470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watermelon sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 2132
+        width: 841
+        height: 1706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfda9def8d1380cd0800000000000000
+      internalID: -2591766777493344771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watermelon sheet_13
+      rect:
+        serializedVersion: 2
+        x: 4388
+        y: 2132
+        width: 841
+        height: 1692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e32ee91fe26d210800000000000000
+      internalID: 1357323952986406462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watermelon sheet_14
+      rect:
+        serializedVersion: 2
+        x: 6308
+        y: 2132
+        width: 841
+        height: 1672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b82345b0a33f2dd0800000000000000
+      internalID: -2508729702093215559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watermelon sheet_15
+      rect:
+        serializedVersion: 2
+        x: 8228
+        y: 2132
+        width: 841
+        height: 1648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406ffd49a92d98dd0800000000000000
+      internalID: -2483222158153615868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watermelon sheet_16
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 212
+        width: 841
+        height: 1622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036a78650d81276a0800000000000000
+      internalID: -6453068032984504784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watermelon sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 212
+        width: 841
+        height: 1598
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e201f21145e7f8150800000000000000
+      internalID: 5877054938272436270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watermelon sheet_18
+      rect:
+        serializedVersion: 2
+        x: 4388
+        y: 212
+        width: 841
+        height: 1579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7002456a5dcc6db80800000000000000
+      internalID: -8370277639430856697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watermelon sheet_19
+      rect:
+        serializedVersion: 2
+        x: 6308
+        y: 212
+        width: 841
+        height: 1566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f41563a0723067a0800000000000000
+      internalID: -6386048812252326670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watermelon sheet_20
+      rect:
+        serializedVersion: 2
+        x: 8228
+        y: 212
+        width: 841
+        height: 1560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b198f2b2d034416a0800000000000000
+      internalID: -6479480240041129701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Watermelon sheet_0: -2330500956096747689
+      Watermelon sheet_1: -3127163188822239216
+      Watermelon sheet_10: 3088777723887526411
+      Watermelon sheet_11: 3396689567712254470
+      Watermelon sheet_12: -2591766777493344771
+      Watermelon sheet_13: 1357323952986406462
+      Watermelon sheet_14: -2508729702093215559
+      Watermelon sheet_15: -2483222158153615868
+      Watermelon sheet_16: -6453068032984504784
+      Watermelon sheet_17: 5877054938272436270
+      Watermelon sheet_18: -8370277639430856697
+      Watermelon sheet_19: -6386048812252326670
+      Watermelon sheet_2: -2980756065812185262
+      Watermelon sheet_20: -6479480240041129701
+      Watermelon sheet_3: -136850502957241782
+      Watermelon sheet_4: 2121711833118716075
+      Watermelon sheet_5: 4289603723429380774
+      Watermelon sheet_6: 4445829677840433011
+      Watermelon sheet_7: 3163135233534656560
+      Watermelon sheet_8: 1280538771957696992
+      Watermelon sheet_9: 6947136668871955414
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: dadbb8ad84930cf4ca3a7d92b813f36e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4896016130824461691
+    second: Lemonade sheet_0
+  - first:
+      213: -761066961823343632
+    second: Lemonade sheet_1
+  - first:
+      213: -8808750772125973908
+    second: Lemonade sheet_2
+  - first:
+      213: 6611474305188958574
+    second: Lemonade sheet_3
+  - first:
+      213: 9091265879754236943
+    second: Lemonade sheet_4
+  - first:
+      213: -3255837272223094576
+    second: Lemonade sheet_5
+  - first:
+      213: -3909774800977289433
+    second: Lemonade sheet_6
+  - first:
+      213: -1943854033931947679
+    second: Lemonade sheet_7
+  - first:
+      213: -4370423971371953545
+    second: Lemonade sheet_8
+  - first:
+      213: -684496769216846877
+    second: Lemonade sheet_9
+  - first:
+      213: 3160422065432324619
+    second: Lemonade sheet_10
+  - first:
+      213: -9048188679262208619
+    second: Lemonade sheet_11
+  - first:
+      213: -5334687833500630569
+    second: Lemonade sheet_12
+  - first:
+      213: 5537695229059970639
+    second: Lemonade sheet_13
+  - first:
+      213: -8862216339760164382
+    second: Lemonade sheet_14
+  - first:
+      213: 2985716275970594377
+    second: Lemonade sheet_15
+  - first:
+      213: 1250929214793175030
+    second: Lemonade sheet_16
+  - first:
+      213: 5215607025219493101
+    second: Lemonade sheet_17
+  - first:
+      213: -1426625001894174962
+    second: Lemonade sheet_18
+  - first:
+      213: 7647876975154585459
+    second: Lemonade sheet_19
+  - first:
+      213: -6999669670485928315
+    second: Lemonade sheet_20
+  - first:
+      213: -9127113027672288754
+    second: Lemonade sheet_21
+  - first:
+      213: -6764238856121523389
+    second: Lemonade sheet_22
+  - first:
+      213: 5833225395891955961
+    second: Lemonade sheet_23
+  - first:
+      213: 5192984806476355794
+    second: Lemonade sheet_24
+  - first:
+      213: -4819646262381231551
+    second: Lemonade sheet_25
+  - first:
+      213: 1121072893526950443
+    second: Lemonade sheet_26
+  - first:
+      213: 2621089932551394935
+    second: Lemonade sheet_27
+  - first:
+      213: -6580277263868373229
+    second: Lemonade sheet_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lemonade sheet_0
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 7955
+        width: 925
+        height: 1399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ddf541bb422f340800000000000000
+      internalID: 4896016130824461691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 7955
+        width: 924
+        height: 1398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fbdb3a61a52075f0800000000000000
+      internalID: -761066961823343632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_2
+      rect:
+        serializedVersion: 2
+        x: 4249
+        y: 7955
+        width: 924
+        height: 1398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62cb70f7d701c580800000000000000
+      internalID: -8808750772125973908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_3
+      rect:
+        serializedVersion: 2
+        x: 6169
+        y: 7955
+        width: 924
+        height: 1398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61196af9dca0cb50800000000000000
+      internalID: 6611474305188958574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_4
+      rect:
+        serializedVersion: 2
+        x: 8089
+        y: 7955
+        width: 924
+        height: 1398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f046169662aaa2e70800000000000000
+      internalID: 9091265879754236943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_5
+      rect:
+        serializedVersion: 2
+        x: 9082
+        y: 8175
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d86aa64041f0d2d0800000000000000
+      internalID: -3255837272223094576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_6
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 6035
+        width: 924
+        height: 1398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f99fb8880bdb9c0800000000000000
+      internalID: -3909774800977289433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 6035
+        width: 924
+        height: 1398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161b64c1e0b0605e0800000000000000
+      internalID: -1943854033931947679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_8
+      rect:
+        serializedVersion: 2
+        x: 4249
+        y: 6035
+        width: 924
+        height: 1398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772d584bd822953c0800000000000000
+      internalID: -4370423971371953545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_9
+      rect:
+        serializedVersion: 2
+        x: 6169
+        y: 6035
+        width: 924
+        height: 1398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e36de4a0dd2086f0800000000000000
+      internalID: -684496769216846877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_10
+      rect:
+        serializedVersion: 2
+        x: 8089
+        y: 6035
+        width: 924
+        height: 1398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a6666bf131cdb20800000000000000
+      internalID: 3160422065432324619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_11
+      rect:
+        serializedVersion: 2
+        x: 9082
+        y: 6255
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d7dd7e5506e6280800000000000000
+      internalID: -9048188679262208619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_12
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 4115
+        width: 924
+        height: 1398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1c8980ea167f5b0800000000000000
+      internalID: -5334687833500630569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 4115
+        width: 924
+        height: 1398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46be7a8878d9dc40800000000000000
+      internalID: 5537695229059970639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_14
+      rect:
+        serializedVersion: 2
+        x: 4249
+        y: 4115
+        width: 924
+        height: 1398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1dee96135130580800000000000000
+      internalID: -8862216339760164382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_15
+      rect:
+        serializedVersion: 2
+        x: 6169
+        y: 4115
+        width: 924
+        height: 1398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946545d42256f6920800000000000000
+      internalID: 2985716275970594377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_16
+      rect:
+        serializedVersion: 2
+        x: 8087
+        y: 4115
+        width: 926
+        height: 1399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ffc7ee3e713c5110800000000000000
+      internalID: 1250929214793175030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_17
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 2195
+        width: 926
+        height: 1399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec5d3ab4fe816840800000000000000
+      internalID: 5215607025219493101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 2195
+        width: 926
+        height: 1399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f186e8e1c933ce0800000000000000
+      internalID: -1426625001894174962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_19
+      rect:
+        serializedVersion: 2
+        x: 4247
+        y: 2195
+        width: 926
+        height: 1399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f5af5b697b22a60800000000000000
+      internalID: 7647876975154585459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_20
+      rect:
+        serializedVersion: 2
+        x: 6167
+        y: 2195
+        width: 926
+        height: 1399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5865c91458d2cde90800000000000000
+      internalID: -6999669670485928315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_21
+      rect:
+        serializedVersion: 2
+        x: 8087
+        y: 2195
+        width: 926
+        height: 1399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02d0c01f0bf55180800000000000000
+      internalID: -9127113027672288754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_22
+      rect:
+        serializedVersion: 2
+        x: 9082
+        y: 2415
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3436bfc49989022a0800000000000000
+      internalID: -6764238856121523389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_23
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 275
+        width: 926
+        height: 1399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f86de08797c3f050800000000000000
+      internalID: 5833225395891955961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 275
+        width: 926
+        height: 1399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8160afa20311840800000000000000
+      internalID: 5192984806476355794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_25
+      rect:
+        serializedVersion: 2
+        x: 4247
+        y: 275
+        width: 926
+        height: 1399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1424abb824d2d1db0800000000000000
+      internalID: -4819646262381231551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_26
+      rect:
+        serializedVersion: 2
+        x: 6167
+        y: 275
+        width: 926
+        height: 1399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b224ef16bd9de8f00800000000000000
+      internalID: 1121072893526950443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_27
+      rect:
+        serializedVersion: 2
+        x: 8087
+        y: 275
+        width: 926
+        height: 1399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7761412186bff5420800000000000000
+      internalID: 2621089932551394935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemonade sheet_28
+      rect:
+        serializedVersion: 2
+        x: 9082
+        y: 495
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317db8b31b82ea4a0800000000000000
+      internalID: -6580277263868373229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lemonade sheet_0: 4896016130824461691
+      Lemonade sheet_1: -761066961823343632
+      Lemonade sheet_10: 3160422065432324619
+      Lemonade sheet_11: -9048188679262208619
+      Lemonade sheet_12: -5334687833500630569
+      Lemonade sheet_13: 5537695229059970639
+      Lemonade sheet_14: -8862216339760164382
+      Lemonade sheet_15: 2985716275970594377
+      Lemonade sheet_16: 1250929214793175030
+      Lemonade sheet_17: 5215607025219493101
+      Lemonade sheet_18: -1426625001894174962
+      Lemonade sheet_19: 7647876975154585459
+      Lemonade sheet_2: -8808750772125973908
+      Lemonade sheet_20: -6999669670485928315
+      Lemonade sheet_21: -9127113027672288754
+      Lemonade sheet_22: -6764238856121523389
+      Lemonade sheet_23: 5833225395891955961
+      Lemonade sheet_24: 5192984806476355794
+      Lemonade sheet_25: -4819646262381231551
+      Lemonade sheet_26: 1121072893526950443
+      Lemonade sheet_27: 2621089932551394935
+      Lemonade sheet_28: -6580277263868373229
+      Lemonade sheet_3: 6611474305188958574
+      Lemonade sheet_4: 9091265879754236943
+      Lemonade sheet_5: -3255837272223094576
+      Lemonade sheet_6: -3909774800977289433
+      Lemonade sheet_7: -1943854033931947679
+      Lemonade sheet_8: -4370423971371953545
+      Lemonade sheet_9: -684496769216846877
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
