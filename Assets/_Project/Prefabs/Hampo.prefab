@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MinionDamage
   baseDamagePerAttack: 10
-  attackInterval: 2
+  attackInterval: 3
   finalDamageDisplay: 0
   damageMultiplierDisplay: 0
 --- !u!114 &8737623411310810076
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cec8bf6098227af43a309273972abdac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MinionHealth
-  baseMaxHealth: 100
+  baseMaxHealth: 200
   currentHealthDisplay: 0
   maxHealthAfterUpgrades: 0
 --- !u!114 &7248744662312294952
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f23ae4dcd61adb5499bb5fbba7f2abee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  baseMoveSpeed: 1
+  baseMoveSpeed: 0.4
   waypoints: []
   finalMoveSpeedDisplay: 0
   speedMultiplierDisplay: 0

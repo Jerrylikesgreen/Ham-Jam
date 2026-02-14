@@ -696,7 +696,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 162.5, y: 85.5}
+  m_AnchoredPosition: {x: 321, y: -56.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &344555232
@@ -1743,7 +1743,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282205317}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1f120ec12b106f54cbdf288e5d74ad17, type: 3}
   m_Name: 
@@ -2715,6 +2715,11 @@ MonoBehaviour:
   notificationGood: {fileID: 8300000, guid: 6b02c54c9de94fb4595b5770b0cf0ee9, type: 3}
   notificationBad: {fileID: 8300000, guid: 74a287c7761897b41b00ad1ab604f8cb, type: 3}
   timerTick: {fileID: 8300000, guid: 1fa1add9f6de6e44b9750a37c7538e2f, type: 3}
+  towerAttack: {fileID: 0}
+  minionAttack: {fileID: 0}
+  hamMinion: {fileID: 0}
+  frogMinion: {fileID: 0}
+  baconMinion: {fileID: 0}
 --- !u!82 &1598856275
 AudioSource:
   m_ObjectHideFlags: 0

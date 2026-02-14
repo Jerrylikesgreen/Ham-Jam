@@ -23,6 +23,7 @@ public class SfxPlayer : MonoBehaviour
     {
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.outputAudioMixerGroup = sfxMixerGroup; // Route SFX through mixer
+        audioSource.volume = 0.5f;
     }
 
     public void PlaySfx(AudioClip clip)

@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;  // Required for coroutine
 
 public class CastleHealth : MonoBehaviour
 {
@@ -11,24 +12,39 @@ public class CastleHealth : MonoBehaviour
     [Tooltip("Gold given to the player when they win this level")]
     public int goldReward = 100;
 
-
     [Header("SFX")]
     [Tooltip("AudioSource to play timer tick SFX")]
     public SfxPlayer sfxPlayer;
 
+    [Header("Smoke Effect")]
+    [Tooltip("Smoke particle emitter GameObject - starts disabled")]
+    public GameObject smokeEmitter;  // Drag your smoke GameObject here
 
     private float currentHealth;
     private bool rewardGiven = false;
+    private bool isDestroyed = false;  // Prevent multiple triggers
 
     void Start()
     {
         currentHealth = maxHealth;
+
+        // Ensure smoke starts disabled
+        if (smokeEmitter != null)
+        {
+            smokeEmitter.SetActive(false);
+        }
+        else
+        {
+            Debug.LogWarning("CastleHealth: No smoke emitter assigned in Inspector!");
+        }
     }
 
     public void TakeDamage(float damage)
     {
+        if (isDestroyed) return;  // Safety: ignore damage after death
+
         currentHealth -= damage;
-        sfxPlayer.PlayMinionAtk();
+        sfxPlayer?.PlayMinionAtk();
 
         Debug.Log($"Castle Health: {currentHealth}/{maxHealth}");
 
@@ -36,27 +52,44 @@ public class CastleHealth : MonoBehaviour
         {
             rewardGiven = true;
             currentHealth = 0;
+            isDestroyed = true;
 
-            GiveGoldReward();
-
-            Time.timeScale = 0f;
-            if (levelWonUI != null)
+            // Activate smoke immediately
+            if (smokeEmitter != null)
             {
-                levelWonUI.SetActive(true);
+                smokeEmitter.SetActive(true);
+                Debug.Log("Castle destroyed → smoke emitter activated!");
             }
 
-            Debug.Log("LEVEL WON!");
+            // Give reward right away (gold & progress save)
+            GiveGoldReward();
+
+            // Delay the win UI and timescale freeze by 2 seconds
+            StartCoroutine(DelayedLevelEnd(2f));
         }
+    }
+
+    private IEnumerator DelayedLevelEnd(float delaySeconds)
+    {
+        yield return new WaitForSeconds(delaySeconds);
+
+        // Now end the level
+        Time.timeScale = 0f;
+
+        if (levelWonUI != null)
+        {
+            levelWonUI.SetActive(true);
+        }
+
+        Debug.Log("LEVEL WON! (after 2-second delay)");
     }
 
     private void GiveGoldReward()
     {
-        // Add gold
         int totalGold = PlayerPrefs.GetInt("TotalGold", 0);
         totalGold += goldReward;
         PlayerPrefs.SetInt("TotalGold", totalGold);
 
-        // NEW: Save which level was just completed
         string currentSceneName = SceneManager.GetActiveScene().name;
 
         if (currentSceneName.StartsWith("Level"))
@@ -65,25 +98,23 @@ public class CastleHealth : MonoBehaviour
             if (int.TryParse(levelNumStr, out int levelNumber))
             {
                 PlayerPrefs.SetInt("LastCompletedLevel", levelNumber);
-                Debug.Log($"Saved completed level: {levelNumber} (from scene name '{currentSceneName}')");
+                Debug.Log($"Saved completed level: {levelNumber} (from scene '{currentSceneName}')");
             }
             else
             {
-                Debug.LogWarning($"Could not parse level number from scene name: {currentSceneName}");
+                Debug.LogWarning($"Could not parse level number from '{currentSceneName}'");
             }
         }
         else
         {
-            Debug.LogWarning($"Current scene '{currentSceneName}' does not start with 'Level' – level progress not saved.");
+            Debug.LogWarning($"Scene '{currentSceneName}' does not start with 'Level' — progress not saved.");
         }
 
-        PlayerPrefs.Save();  // One save at the end is enough
+        PlayerPrefs.Save();
     }
 
-    // Optional helpers (you can keep or remove AddGold if unused)
     public static int GetTotalGold()
     {
         return PlayerPrefs.GetInt("TotalGold", 0);
     }
-
 }
