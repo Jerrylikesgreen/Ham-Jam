@@ -8,6 +8,10 @@ public class MinionSpawner : MonoBehaviour
     public GameObject minion3;
     public Transform spawnPoint;
 
+    [Header("SFX")]
+    [Tooltip("AudioSource to play timer tick SFX")]
+    public SfxPlayer sfxPlayer;
+
     /// <summary>
     /// Spawns a minion based on index:
     /// 1 → minion1
@@ -29,12 +33,15 @@ public class MinionSpawner : MonoBehaviour
         {
             case 1:
                 prefabToSpawn = minion1;
+                sfxPlayer.PlayFrogMinion();
                 break;
             case 2:
                 prefabToSpawn = minion2;
+                sfxPlayer.PlayHamMinion();
                 break;
             case 3:
                 prefabToSpawn = minion3;
+                sfxPlayer.PlayBaconMinion();
                 break;
             default:
                 Debug.LogError($" Invalid minion index: {index}. Must be 1, 2, or 3.");

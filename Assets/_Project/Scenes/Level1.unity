@@ -2352,8 +2352,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 1, y: -5}
-  m_Radius: 5
+  m_Offset: {x: 0, y: -5}
+  m_Radius: 4
 --- !u!50 &895861436
 Rigidbody2D:
   serializedVersion: 5
@@ -3606,6 +3606,7 @@ MonoBehaviour:
   maxHealth: 100
   levelWonUI: {fileID: 341571589}
   goldReward: 300
+  sfxPlayer: {fileID: 1897397579}
 --- !u!212 &1327843534
 SpriteRenderer:
   serializedVersion: 2
@@ -5533,7 +5534,8 @@ MonoBehaviour:
   notificationGood: {fileID: 8300000, guid: 6b02c54c9de94fb4595b5770b0cf0ee9, type: 3}
   notificationBad: {fileID: 8300000, guid: 74a287c7761897b41b00ad1ab604f8cb, type: 3}
   timerTick: {fileID: 8300000, guid: 1fa1add9f6de6e44b9750a37c7538e2f, type: 3}
-  towerAttack: {fileID: 8300000, guid: 0f75f2426c7beb840b737eb10962333d, type: 3}
+  towerAttack: {fileID: 8300000, guid: 3cca68f29c8ea39468380f7fc037396e, type: 3}
+  minionAttack: {fileID: 8300000, guid: 0f75f2426c7beb840b737eb10962333d, type: 3}
 --- !u!82 &1897397580
 AudioSource:
   m_ObjectHideFlags: 0
