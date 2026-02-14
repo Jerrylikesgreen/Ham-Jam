@@ -1196,10 +1196,10 @@ MonoBehaviour:
   countdownText: {fileID: 1724724672}
   rushPanelBorder: {fileID: 2098421498}
   musicPlayer: {fileID: 535047613}
-  levelLost: {fileID: 0}
-  sfxPlayer: {fileID: 0}
-  timerTickClip: {fileID: 0}
-  gameLostTrack: {fileID: 0}
+  levelLost: {fileID: 1240704005}
+  sfxPlayer: {fileID: 1601397669}
+  timerTickClip: {fileID: 8300000, guid: 1fa1add9f6de6e44b9750a37c7538e2f, type: 3}
+  gameLostTrack: {fileID: 8300000, guid: 991689181f3d8ef43958acd159b992f0, type: 3}
   finalStartTimeDisplay: 0
   timeBonusAppliedDisplay: 0
 --- !u!114 &464187541
@@ -1654,7 +1654,7 @@ MonoBehaviour:
   maxHealth: 100
   levelWonUI: {fileID: 0}
   goldReward: 300
-  sfxPlayer: {fileID: 0}
+  sfxPlayer: {fileID: 1601397668}
 --- !u!212 &480812611
 SpriteRenderer:
   serializedVersion: 2
@@ -2051,7 +2051,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   damagePerAttack: 10
   attackInterval: 1
-  sfxPlayer: {fileID: 0}
+  sfxPlayer: {fileID: 1601397668}
 --- !u!58 &557895132
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2396,7 +2396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   damagePerAttack: 10
   attackInterval: 1
-  sfxPlayer: {fileID: 0}
+  sfxPlayer: {fileID: 1601397668}
 --- !u!58 &688055674
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3097,7 +3097,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   damagePerAttack: 10
   attackInterval: 1
-  sfxPlayer: {fileID: 0}
+  sfxPlayer: {fileID: 1601397668}
 --- !u!222 &954275842
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4709,7 +4709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   damagePerAttack: 10
   attackInterval: 1
-  sfxPlayer: {fileID: 0}
+  sfxPlayer: {fileID: 1601397668}
 --- !u!58 &1306820488
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4902,11 +4902,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2afd6d25eae9b34098644d3ebe8b6fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MinionSpawner
-  minion1: {fileID: 0}
-  minion2: {fileID: 0}
-  minion3: {fileID: 0}
+  minion1: {fileID: 8371264711809274640, guid: b1734992455980f4cafe99858a7a3be4, type: 3}
+  minion2: {fileID: 5352210718462903339, guid: 03b3d915ef9346d4f89f3e80a30409b9, type: 3}
+  minion3: {fileID: 8257238584796491122, guid: 58c1ad8a595f2914dab6c728fd7abc7c, type: 3}
   spawnPoint: {fileID: 1317112371}
-  sfxPlayer: {fileID: 0}
+  sfxPlayer: {fileID: 1601397668}
 --- !u!4 &1317112371
 Transform:
   m_ObjectHideFlags: 0
@@ -6173,7 +6173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   damagePerAttack: 10
   attackInterval: 1
-  sfxPlayer: {fileID: 0}
+  sfxPlayer: {fileID: 1601397668}
 --- !u!222 &1744254690
 CanvasRenderer:
   m_ObjectHideFlags: 0
