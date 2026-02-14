@@ -11,6 +11,7 @@ public class SfxPlayer : MonoBehaviour
     public AudioClip notificationGood;
     public AudioClip notificationBad;
     public AudioClip timerTick;
+    public AudioClip towerAttack;
 
     private AudioSource audioSource;
 
@@ -35,4 +36,5 @@ public class SfxPlayer : MonoBehaviour
     public void PlayNotificationGood() => PlaySfx(notificationGood);
     public void PlayNotificationBad() => PlaySfx(notificationBad);
     public void PlayTimerTick() => PlaySfx(timerTick);
+    public void PlayTowerAtk() => PlaySfx(towerAttack);
 }

@@ -8,6 +8,12 @@ public class TowerAttack : MonoBehaviour
     [SerializeField] private float damagePerAttack = 10f;
     [SerializeField] private float attackInterval = 1f;
 
+    [Header("SFX")]
+    [Tooltip("AudioSource to play timer tick SFX")]
+    public SfxPlayer sfxPlayer;
+
+
+
     private List<MinionHealth> minionsInRange = new List<MinionHealth>();
     private bool isAttacking = false;
 
@@ -58,6 +64,7 @@ public class TowerAttack : MonoBehaviour
 
             Debug.Log($"[Tower] Attacking {target.name}");
             target.TakeDamage(damagePerAttack);
+            sfxPlayer.PlayTowerAtk();
 
             yield return new WaitForSeconds(attackInterval);
         }

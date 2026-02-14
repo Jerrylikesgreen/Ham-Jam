@@ -13,7 +13,7 @@ TagManager:
   - Water
   - UI
   - Towers
-  - 
+  - Castle
   - 
   - 
   - 
@@ -51,8 +51,12 @@ TagManager:
   - name: Towers
     uniqueID: 44165161
     locked: 0
+  - name: Castle
+    uniqueID: 3453127933
+    locked: 0
   m_RenderingLayers:
   - Default
   - Background
   - Towers
   - MSC
+  - Castle

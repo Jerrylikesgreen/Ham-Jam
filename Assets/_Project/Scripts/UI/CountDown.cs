@@ -25,6 +25,8 @@ public class CountDown : MonoBehaviour
     [Header("SFX")]
     [Tooltip("AudioSource to play timer tick SFX")]
     public AudioSource sfxPlayer;
+
+
     [Tooltip("Timer tick clip (used for Rush alert)")]
     public AudioClip timerTickClip;
     public AudioClip gameLostTrack;
