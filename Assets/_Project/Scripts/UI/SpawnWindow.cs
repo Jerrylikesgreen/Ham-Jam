@@ -27,6 +27,11 @@ public class SpawnWindow : MonoBehaviour
     [SerializeField] private int mob2MeatCost = 25;
     [SerializeField] private int mob3MeatCost = 50;
 
+    [Header("Start Fill Percent")]
+    [Range(0f, 1f)]
+    [SerializeField] private float startFillPercent = 0.95f;
+
+
     [SerializeField] private TMP_Text notEnoughMeatText;                   // Drag your "Not enough meat!" TMP_Text here
     [SerializeField] private float messageDisplayTime = 2f;                // How long to show message
 
@@ -37,11 +42,21 @@ public class SpawnWindow : MonoBehaviour
         InitializeSlider(mob2Progress, spawnSystem.mob2SpawnTime);
         InitializeSlider(mob3Progress, spawnSystem.mob3SpawnTime);
 
-        mob1SpawnButton.interactable = false;
-        mob2SpawnButton.interactable = false;
-        mob3SpawnButton.interactable = false;
+        // ✅ Set timers to 95% filled at start
+        spawnSystem.mob1Timer = spawnSystem.mob1SpawnTime * 0.95f;
+        spawnSystem.mob2Timer = spawnSystem.mob2SpawnTime * 0.95f;
+        spawnSystem.mob3Timer = spawnSystem.mob3SpawnTime * 0.95f;
 
-        // Connect buttons (changed to use cost check)
+        // Optional: update ready state if near complete
+        spawnSystem.mob1Ready = spawnSystem.mob1Timer >= spawnSystem.mob1SpawnTime;
+        spawnSystem.mob2Ready = spawnSystem.mob2Timer >= spawnSystem.mob2SpawnTime;
+        spawnSystem.mob3Ready = spawnSystem.mob3Timer >= spawnSystem.mob3SpawnTime;
+
+        mob1SpawnButton.interactable = spawnSystem.mob1Ready;
+        mob2SpawnButton.interactable = spawnSystem.mob2Ready;
+        mob3SpawnButton.interactable = spawnSystem.mob3Ready;
+
+        // Connect buttons
         mob1SpawnButton.onClick.AddListener(() => TrySpawnMob(1));
         mob2SpawnButton.onClick.AddListener(() => TrySpawnMob(2));
         mob3SpawnButton.onClick.AddListener(() => TrySpawnMob(3));
@@ -51,9 +66,10 @@ public class SpawnWindow : MonoBehaviour
             notEnoughMeatText.gameObject.SetActive(false);
     }
 
+
     void Update()
     {
-        // Existing slider & button ready logic (unchanged)
+        // 
         mob1Progress.value = spawnSystem.mob1Timer;
         mob2Progress.value = spawnSystem.mob2Timer;
         mob3Progress.value = spawnSystem.mob3Timer;
@@ -63,7 +79,6 @@ public class SpawnWindow : MonoBehaviour
         mob3SpawnButton.interactable = spawnSystem.mob3Ready;
     }
 
-    // ── NEW: Combined spawn attempt with cost check ──
     private void TrySpawnMob(int mobIndex)
     {
         int cost = GetCostForMob(mobIndex);
@@ -76,14 +91,14 @@ public class SpawnWindow : MonoBehaviour
 
         if (meatGenerator.TrySpendMeat(cost))
         {
-            // Success → spawn & reset cooldown
+            // 
             ResetMobTimer(mobIndex);
-            spawner.SpawnMinion(mobIndex);  // Your teammate's spawn logic
+            spawner.SpawnMinion(mobIndex);  
             Debug.Log($"Spawned mob {mobIndex} for {cost} meat");
         }
         else
         {
-            // Fail → show message
+            // Fail > show message
             ShowNotEnoughMessage();
         }
     }
@@ -101,7 +116,7 @@ public class SpawnWindow : MonoBehaviour
 
     private void ResetMobTimer(int mobIndex)
     {
-        // Mirror your original reset calls
+        // reset calls
         switch (mobIndex)
         {
             case 1: spawnSystem.ResetMob1(); mob1SpawnButton.interactable = false; break;
@@ -115,7 +130,7 @@ public class SpawnWindow : MonoBehaviour
         if (notEnoughMeatText == null) return;
 
         notEnoughMeatText.gameObject.SetActive(true);
-        CancelInvoke(nameof(HideMessage));           // Cancel any previous hide
+        CancelInvoke(nameof(HideMessage));       
         Invoke(nameof(HideMessage), messageDisplayTime);
     }
 
