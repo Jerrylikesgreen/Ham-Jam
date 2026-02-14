@@ -1,0 +1,1120 @@
+fileFormatVersion: 2
+guid: b79ab2c144c63134f9a5cfb7e5d6da65
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2902801424133482985
+    second: cartoon-smoke-element-animation-frames_0
+  - first:
+      213: 3131281887604895874
+    second: cartoon-smoke-element-animation-frames_1
+  - first:
+      213: -8622994224790979079
+    second: cartoon-smoke-element-animation-frames_2
+  - first:
+      213: -6582956144767466800
+    second: cartoon-smoke-element-animation-frames_3
+  - first:
+      213: -6248675818222279199
+    second: cartoon-smoke-element-animation-frames_4
+  - first:
+      213: -1442455163158812061
+    second: cartoon-smoke-element-animation-frames_5
+  - first:
+      213: 5034378993646354482
+    second: cartoon-smoke-element-animation-frames_6
+  - first:
+      213: -7510326530360646446
+    second: cartoon-smoke-element-animation-frames_7
+  - first:
+      213: -6025925885227066799
+    second: cartoon-smoke-element-animation-frames_8
+  - first:
+      213: -3482442113007100476
+    second: cartoon-smoke-element-animation-frames_9
+  - first:
+      213: 888676277556807098
+    second: cartoon-smoke-element-animation-frames_10
+  - first:
+      213: -641289837223971933
+    second: cartoon-smoke-element-animation-frames_11
+  - first:
+      213: 4665983353940647350
+    second: cartoon-smoke-element-animation-frames_12
+  - first:
+      213: -7506212287625587537
+    second: cartoon-smoke-element-animation-frames_13
+  - first:
+      213: 3998480190802481222
+    second: cartoon-smoke-element-animation-frames_14
+  - first:
+      213: -5180318922987517174
+    second: cartoon-smoke-element-animation-frames_15
+  - first:
+      213: 3803830299454056580
+    second: cartoon-smoke-element-animation-frames_16
+  - first:
+      213: 6387519099640806607
+    second: cartoon-smoke-element-animation-frames_17
+  - first:
+      213: -8249780928812684098
+    second: cartoon-smoke-element-animation-frames_18
+  - first:
+      213: -5954786200056506999
+    second: cartoon-smoke-element-animation-frames_19
+  - first:
+      213: 7590548886912287323
+    second: cartoon-smoke-element-animation-frames_20
+  - first:
+      213: -426769095891415396
+    second: cartoon-smoke-element-animation-frames_21
+  - first:
+      213: 5822864506108981538
+    second: cartoon-smoke-element-animation-frames_22
+  - first:
+      213: -6878246588685248599
+    second: cartoon-smoke-element-animation-frames_23
+  - first:
+      213: 5576391873712723030
+    second: cartoon-smoke-element-animation-frames_24
+  - first:
+      213: -2833700657591006137
+    second: cartoon-smoke-element-animation-frames_25
+  - first:
+      213: 5385368122976184965
+    second: cartoon-smoke-element-animation-frames_26
+  - first:
+      213: 5382074459152590516
+    second: cartoon-smoke-element-animation-frames_27
+  - first:
+      213: 8771151800574223156
+    second: cartoon-smoke-element-animation-frames_28
+  - first:
+      213: 4508100682320056399
+    second: cartoon-smoke-element-animation-frames_29
+  - first:
+      213: 6296306881665489956
+    second: cartoon-smoke-element-animation-frames_30
+  - first:
+      213: 1240253639692333059
+    second: cartoon-smoke-element-animation-frames_31
+  - first:
+      213: -3265821804128374706
+    second: cartoon-smoke-element-animation-frames_32
+  - first:
+      213: -6966403841554317148
+    second: cartoon-smoke-element-animation-frames_33
+  - first:
+      213: -408543028955485563
+    second: cartoon-smoke-element-animation-frames_34
+  - first:
+      213: 9209761108355583833
+    second: cartoon-smoke-element-animation-frames_35
+  - first:
+      213: 5931978989053871482
+    second: cartoon-smoke-element-animation-frames_36
+  - first:
+      213: 1127261191056267573
+    second: cartoon-smoke-element-animation-frames_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 927
+        width: 1971
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71696050c7d27b7d0800000000000000
+      internalID: -2902801424133482985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1016
+        width: 161
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280fd4a594c847b20800000000000000
+      internalID: 3131281887604895874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_2
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 950
+        width: 241
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fdb61b6078f45880800000000000000
+      internalID: -8622994224790979079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 475
+        width: 331
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2092ba344a4a4a0800000000000000
+      internalID: -6582956144767466800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_4
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 475
+        width: 341
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5a942437e3849a0800000000000000
+      internalID: -6248675818222279199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_5
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 566
+        width: 332
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36aad7bebae5bfbe0800000000000000
+      internalID: -1442455163158812061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_6
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 499
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230cafc7505bdd540800000000000000
+      internalID: 5034378993646354482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_7
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 628
+        width: 111
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d469a2efc5f5c790800000000000000
+      internalID: -7510326530360646446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_8
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 480
+        width: 120
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a9538855c9f5ca0800000000000000
+      internalID: -6025925885227066799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_9
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 533
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cdd9575951ebafc0800000000000000
+      internalID: -3482442113007100476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_10
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 496
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab50714bd56355c00800000000000000
+      internalID: 888676277556807098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_11
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 461
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3723e6a4ea917f0800000000000000
+      internalID: -641289837223971933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_12
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 294
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd94839327e0c040800000000000000
+      internalID: 4665983353940647350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_13
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 341
+        width: 94
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4976ba1b394d790800000000000000
+      internalID: -7506212287625587537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_14
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 338
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640d7367c847d7730800000000000000
+      internalID: 3998480190802481222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_15
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 296
+        width: 79
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b4814d26fcb18b0800000000000000
+      internalID: -5180318922987517174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_16
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 308
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488a3d8f08be9c430800000000000000
+      internalID: 3803830299454056580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_17
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 303
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fccfc1257c605a850800000000000000
+      internalID: 6387519099640806607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_18
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 276
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebce35754f3e28d80800000000000000
+      internalID: -8249780928812684098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_19
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 310
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985db3830895c5da0800000000000000
+      internalID: -5954786200056506999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_20
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 225
+        width: 100
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52c4a60ffb075960800000000000000
+      internalID: 7590548886912287323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_21
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 282
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e0746b4cfc31af0800000000000000
+      internalID: -426769095891415396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_22
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 163
+        width: 133
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2213bddda68fec050800000000000000
+      internalID: 5822864506108981538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_23
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 255
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a79fdb8b2f8b80a0800000000000000
+      internalID: -6878246588685248599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_24
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 250
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65495093dd2536d40800000000000000
+      internalID: 5576391873712723030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_25
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 262
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c4f78f34caca8d0800000000000000
+      internalID: -2833700657591006137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_26
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 136
+        width: 103
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a25b266cbacba40800000000000000
+      internalID: 5385368122976184965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_27
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 168
+        width: 57
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b62e748438f0ba40800000000000000
+      internalID: 5382074459152590516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_28
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 201
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4332140571469b970800000000000000
+      internalID: 8771151800574223156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_29
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 193
+        width: 69
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4012658fadff8e30800000000000000
+      internalID: 4508100682320056399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_30
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 208
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42cd486efb9f06750800000000000000
+      internalID: 6296306881665489956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_31
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 178
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3003f393d14463110800000000000000
+      internalID: 1240253639692333059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_32
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 77
+        width: 63
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40f3394f587da2d0800000000000000
+      internalID: -3265821804128374706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_33
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 115
+        width: 82
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a00d3e9d9c525f90800000000000000
+      internalID: -6966403841554317148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_34
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 108
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a65ab9740945af0800000000000000
+      internalID: -408543028955485563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_35
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 121
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f0eb1cee4afcf70800000000000000
+      internalID: 9209761108355583833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_36
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 126
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7503a9267f925250800000000000000
+      internalID: 5931978989053871482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-element-animation-frames_37
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 51
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5391efda416d4af00800000000000000
+      internalID: 1127261191056267573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6f07814d659a6534380bea2a279945c1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      cartoon-smoke-element-animation-frames_0: -2902801424133482985
+      cartoon-smoke-element-animation-frames_1: 3131281887604895874
+      cartoon-smoke-element-animation-frames_10: 888676277556807098
+      cartoon-smoke-element-animation-frames_11: -641289837223971933
+      cartoon-smoke-element-animation-frames_12: 4665983353940647350
+      cartoon-smoke-element-animation-frames_13: -7506212287625587537
+      cartoon-smoke-element-animation-frames_14: 3998480190802481222
+      cartoon-smoke-element-animation-frames_15: -5180318922987517174
+      cartoon-smoke-element-animation-frames_16: 3803830299454056580
+      cartoon-smoke-element-animation-frames_17: 6387519099640806607
+      cartoon-smoke-element-animation-frames_18: -8249780928812684098
+      cartoon-smoke-element-animation-frames_19: -5954786200056506999
+      cartoon-smoke-element-animation-frames_2: -8622994224790979079
+      cartoon-smoke-element-animation-frames_20: 7590548886912287323
+      cartoon-smoke-element-animation-frames_21: -426769095891415396
+      cartoon-smoke-element-animation-frames_22: 5822864506108981538
+      cartoon-smoke-element-animation-frames_23: -6878246588685248599
+      cartoon-smoke-element-animation-frames_24: 5576391873712723030
+      cartoon-smoke-element-animation-frames_25: -2833700657591006137
+      cartoon-smoke-element-animation-frames_26: 5385368122976184965
+      cartoon-smoke-element-animation-frames_27: 5382074459152590516
+      cartoon-smoke-element-animation-frames_28: 8771151800574223156
+      cartoon-smoke-element-animation-frames_29: 4508100682320056399
+      cartoon-smoke-element-animation-frames_3: -6582956144767466800
+      cartoon-smoke-element-animation-frames_30: 6296306881665489956
+      cartoon-smoke-element-animation-frames_31: 1240253639692333059
+      cartoon-smoke-element-animation-frames_32: -3265821804128374706
+      cartoon-smoke-element-animation-frames_33: -6966403841554317148
+      cartoon-smoke-element-animation-frames_34: -408543028955485563
+      cartoon-smoke-element-animation-frames_35: 9209761108355583833
+      cartoon-smoke-element-animation-frames_36: 5931978989053871482
+      cartoon-smoke-element-animation-frames_37: 1127261191056267573
+      cartoon-smoke-element-animation-frames_4: -6248675818222279199
+      cartoon-smoke-element-animation-frames_5: -1442455163158812061
+      cartoon-smoke-element-animation-frames_6: 5034378993646354482
+      cartoon-smoke-element-animation-frames_7: -7510326530360646446
+      cartoon-smoke-element-animation-frames_8: -6025925885227066799
+      cartoon-smoke-element-animation-frames_9: -3482442113007100476
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
