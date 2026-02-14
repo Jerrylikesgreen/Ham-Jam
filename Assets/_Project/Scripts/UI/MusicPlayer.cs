@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Audio;
 
 public class MusicPlayer : MonoBehaviour
@@ -36,8 +36,14 @@ public class MusicPlayer : MonoBehaviour
     /// <summary>
     /// Play the rush music track
     /// </summary>
+
     public void PlayRushTrack()
     {
+        if (audioSource.isPlaying)
+        {
+            audioSource.Stop();   // 🔴 Force stop main track
+        }
+
         PlayTrack(rushTrack);
     }
 
@@ -52,7 +58,7 @@ public class MusicPlayer : MonoBehaviour
     /// <summary>
     /// Generic track player
     /// </summary>
-    private void PlayTrack(AudioClip track)
+    public void PlayTrack(AudioClip track)
     {
         if (track == null)
         {
@@ -60,8 +66,10 @@ public class MusicPlayer : MonoBehaviour
             return;
         }
 
-        if (audioSource.clip == track && audioSource.isPlaying)
-            return; // Already playing
+        if (audioSource.isPlaying)
+        {
+            audioSource.Stop();
+        }
 
         audioSource.clip = track;
         audioSource.Play();

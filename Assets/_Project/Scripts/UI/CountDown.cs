@@ -8,23 +8,39 @@ public class CountDown : MonoBehaviour
     [Tooltip("Base time BEFORE upgrades (seconds)")]
     public float baseStartTime = 60f;
 
+    [Header("UI")]
     public TMP_Text countdownText;
-    public Image panelBorder;
+    [Tooltip("Panel that will turn red during Rush")]
+    public Image rushPanelBorder;
+    
+    [Header("Music")]
+    [Tooltip("Reference to the MusicPlayer to switch tracks during Rush")]
+    public MusicPlayer musicPlayer;
 
-    // ── NEW: Inspector debug tracker (optional but useful) ──
+ 
+
+    [Header("LevelLost Ref")]
+    public GameObject levelLost;
+
+    [Header("SFX")]
+    [Tooltip("AudioSource to play timer tick SFX")]
+    public AudioSource sfxPlayer;
+    [Tooltip("Timer tick clip (used for Rush alert)")]
+    public AudioClip timerTickClip;
+    public AudioClip gameLostTrack;
+
     [Header("Runtime Debug (Read Only)")]
     [SerializeField, ReadOnly] private float finalStartTimeDisplay;
     [SerializeField, ReadOnly] private float timeBonusAppliedDisplay;
 
     private float timer;
+    private bool rushTriggered = false;
 
     void Start()
     {
-        // Apply upgrade bonus
         float bonus = UpgradeManager.GetGameTimeBonus();
         timer = baseStartTime + bonus;
 
-        // Fill debug fields
         finalStartTimeDisplay = timer;
         timeBonusAppliedDisplay = bonus;
 
@@ -35,31 +51,60 @@ public class CountDown : MonoBehaviour
 
     void Update()
     {
-        if (timer > 0f)
+        if (timer <= 0f) return;
+
+        timer -= Time.deltaTime;
+
+        // Trigger Rush if below 35% remaining
+        if (!rushTriggered && timer <= (finalStartTimeDisplay * 0.35f))
         {
-            timer -= Time.deltaTime;
+            Rush();
+            rushTriggered = true;
+        }
 
-            if (timer < (baseStartTime + UpgradeManager.GetGameTimeBonus()) * 0.25f)
-                panelBorder.color = Color.red;
+        // Turn panel red in Rush
+        if (rushTriggered && rushPanelBorder != null)
+        {
+            rushPanelBorder.color = Color.red;
+        }
 
-            if (timer <= 0f)
-            {
-                timer = 0f;
-                OnCountDownFinished();
-            }
+        if (timer <= 0f)
+        {
+            timer = 0f;
+            OnCountDownFinished();
+        }
 
-            UpdateCountdownText();
+        UpdateCountdownText();
+    }
+
+    private void Rush()
+    {
+        Debug.Log("Rush Triggered! Less than 35% time remaining.");
+
+        // Smoothly switch to Rush music
+        if (musicPlayer != null)
+        {
+            musicPlayer.PlayRushTrack();
+        }
+
+        // Play timer tick SFX once
+        if (sfxPlayer != null && timerTickClip != null)
+        {
+            sfxPlayer.PlayOneShot(timerTickClip);
+            Debug.Log("✅ Rush SFX played");
         }
     }
 
     private void OnCountDownFinished()
     {
         Debug.Log("Count Down Finished");
-        // TODO - Hook up to Event Bus
+        levelLost.SetActive(true);
+        musicPlayer.PlayTrack(gameLostTrack);
     }
 
     private void UpdateCountdownText()
     {
-        countdownText.text = Mathf.Ceil(timer).ToString();
+        if (countdownText != null)
+            countdownText.text = Mathf.Ceil(timer).ToString();
     }
 }
