@@ -3261,6 +3261,7 @@ MonoBehaviour:
   minion2: {fileID: 5352210718462903339, guid: 03b3d915ef9346d4f89f3e80a30409b9, type: 3}
   minion3: {fileID: 8257238584796491122, guid: 58c1ad8a595f2914dab6c728fd7abc7c, type: 3}
   spawnPoint: {fileID: 1246390374}
+  sfxPlayer: {fileID: 1897397579}
 --- !u!4 &1246390374
 Transform:
   m_ObjectHideFlags: 0
@@ -5534,8 +5535,11 @@ MonoBehaviour:
   notificationGood: {fileID: 8300000, guid: 6b02c54c9de94fb4595b5770b0cf0ee9, type: 3}
   notificationBad: {fileID: 8300000, guid: 74a287c7761897b41b00ad1ab604f8cb, type: 3}
   timerTick: {fileID: 8300000, guid: 1fa1add9f6de6e44b9750a37c7538e2f, type: 3}
-  towerAttack: {fileID: 8300000, guid: 3cca68f29c8ea39468380f7fc037396e, type: 3}
+  towerAttack: {fileID: 8300000, guid: c7edfc063c327b54693c8cd94b67e188, type: 3}
   minionAttack: {fileID: 8300000, guid: 0f75f2426c7beb840b737eb10962333d, type: 3}
+  hamMinion: {fileID: 8300000, guid: 0081ab81167dfff4991686fe8b2a67df, type: 3}
+  frogMinion: {fileID: 8300000, guid: 7eff4bb732c564742aefeabdcae3721a, type: 3}
+  baconMinion: {fileID: 8300000, guid: aacd132c3f165524e835f12a906cc808, type: 3}
 --- !u!82 &1897397580
 AudioSource:
   m_ObjectHideFlags: 0
